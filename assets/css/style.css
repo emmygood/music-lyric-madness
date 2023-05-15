@@ -2,11 +2,31 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Kanit', sans-serif;
+
 }
 
+/* heading and logo */
+
 body {
-    background-image: url(../images/record.jpg) no-repeat;
+    background-image: url('../images/musicnotes.jpg');
     background: cover;
-    
+    background-color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    color: #990099;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
 }
+
+.heading {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 15px;
+}
+
+i {
+    font-size: 2rem;
+    padding: 16px;
+}
+
+/* game area */
