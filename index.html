@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--google fonts and font awesome-->
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Work+Sans&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Titillium+Web:wght@300&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/8c55020ac5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
@@ -19,7 +19,7 @@
 
 
     <div class="intro">
-        <h1 class="heading"><i class="fa-solid fa-music"></i>Music Lyric Mayhem</h1>
+        <h1 class="heading"><i class="fa-solid fa-music"></i>Music Lyric Mayhem<i class="fa-solid fa-music"></i></h1>
         <h2>Test your knowledge of song lyrics with this quiz</h2>
     </div>
 
@@ -31,7 +31,7 @@
                 You will be shown a lyric from a song and your challenge will be to
                 select the correct song name.
                 <br>
-                Click NEXT when you have chosen your answer.
+                Click <strong>NEXT</strong> when you have chosen your answer.
                 <br>
                 There is a timer for 15 seconds on each question along with your score.
                 <br>
@@ -42,7 +42,9 @@
         <!--game area-->
         <div class="game-area">
             <div id="question-cont" class="hide">
-                <div id="question">Question</div>
+                <div id="question">
+                    <h2>Question</h2>
+                </div>
                 <ul>
                     <div id="answer-buttons" class="btn-box">
                         <li><button class="button">Answer 1</button></li>
@@ -53,22 +55,24 @@
                 </ul>
             </div>
             <!--button controls-->
-            <div class="controls">
-                <button id="start-button" class="start-btn button">Start</button>
-                <button id="next-button" class="next-btn button hide">Next</button>
+
+
+            <!--score area and timer-->
+            <div class="score-area">
+                <h2>Correct answers: <span id="scores">0</span></h2>
+            </div>
+            <div id="timer">
+                <p></p>
+
             </div>
         </div>
 
-        <!--score area and timer-->
-        <div class="score-area">
-            <p>Correct answers: <span id="scores">0</span></p>
-        </div>
-        <div id="timer">
-            <p></p>
-
-        </div>
     </div>
 
+    <div class="controls">
+        <button id="start-button" class="start-btn button">Start</button>
+        <button id="next-button" class="next-btn button hide">Next</button>
+    </div>
 
 
 
