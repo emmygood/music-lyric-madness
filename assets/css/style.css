@@ -15,8 +15,8 @@ body {
     font-weight: 300;
     color: #000000;
     text-align: center;
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,22 +27,11 @@ body {
     font-size: 4rem;
     text-align: center;
     padding-top: 15px;
-    text-decoration: underline;
 }
 
 i {
     font-size: 3rem;
     padding: 16px;
-}
-
-/* intro and how to play area */
-
-.intro {
-    padding-bottom: 30px;
-    background-color: #66a3ff;
-    border-radius: 5px;
-    width: 800px;
-    max-width: 80%;
 }
 
 h2 {
@@ -55,25 +44,30 @@ h2 {
     max-width: 80%;
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0 0 10px 2px;
+    height: 600px;
 
 
+
+}
+
+/* how to play area */
+
+.instructions {
+    padding-top: 30px;
+
+}
+
+#intro-head {
+    text-decoration: underline;
 }
 
 #how-to {
     text-decoration: none;
     color: #000000;
     text-align: left;
-    padding-left: 20px;
+    padding: 20px 20px;
 
 }
 
 /* game area */
-
-.btn-box {
-    display: grid;
-
-}
-
-.buttons {
-    text-decoration: none;
-}

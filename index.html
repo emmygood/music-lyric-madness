@@ -18,15 +18,15 @@
     <!--heading and logo-->
 
 
-    <div class="intro">
+    <div class="container">
         <h1 class="heading"><i class="fa-solid fa-music"></i>Music Lyric Mayhem<i class="fa-solid fa-music"></i></h1>
         <h2>Test your knowledge of song lyrics with this quiz</h2>
-    </div>
 
-    <!--intro area-->
-    <div class="container">
+
+        <!--intro area-->
+
         <div class="instructions">
-            <h2>How to play</h2>
+            <h2 id="intro-head">How to play</h2>
             <p id="how-to">
                 You will be shown a lyric from a song and your challenge will be to
                 select the correct song name.
@@ -45,17 +45,15 @@
                 <div id="question">
                     <h2>Question</h2>
                 </div>
-                <ul>
-                    <div id="answer-buttons" class="btn-box">
-                        <li><button class="button">Answer 1</button></li>
-                        <li><button class="button">Answer 2</button></li>
-                        <li><button class="button">Answer 3</button></li>
-                        <li><button class="button">Answer 4</button></li>
-                    </div>
-                </ul>
-            </div>
-            <!--button controls-->
 
+                <div id="answer-buttons" class="btn-box">
+                    <button class="button">Answer 1</button>
+                    <button class="button">Answer 2</button>
+                    <button class="button">Answer 3</button>
+                    <button class="button">Answer 4</button>
+                </div>
+
+            </div>
 
             <!--score area and timer-->
             <div class="score-area">
@@ -68,6 +66,8 @@
         </div>
 
     </div>
+
+    <!--button controls-->
 
     <div class="controls">
         <button id="start-button" class="start-btn button">Start</button>
