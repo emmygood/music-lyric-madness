@@ -71,3 +71,46 @@ h2 {
 }
 
 /* game area */
+
+.btn-box {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.button {
+    background-color: #ff8080;
+    border: 2px solid;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    border-color: #ffffff;
+}
+
+.start-btn,
+.next-btn {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 15px 15px;
+    border: none;
+
+}
+
+.start-btn:hover,
+.next-btn:hover {
+    border-color: #000000;
+}
+
+
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
