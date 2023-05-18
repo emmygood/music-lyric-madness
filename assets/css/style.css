@@ -93,9 +93,11 @@ h2 {
     border-color: #ffffff;
 }
 
+/* control buttons */
+
 .start-btn,
 .next-btn {
-    background-color: #66a3ff;
+    background-color: #ff8080;
     font-weight: bold;
     font-size: 2rem;
     margin: 15px 15px;
@@ -103,15 +105,12 @@ h2 {
 
 }
 
-.start-btn:hover,
-.next-btn:hover {
-    border-color: #000000;
-}
-
-
-
 .controls {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hide {
+    display: none;
 }
