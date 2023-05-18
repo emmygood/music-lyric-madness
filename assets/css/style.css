@@ -114,3 +114,42 @@ h2 {
 .hide {
     display: none;
 }
+
+/* footer */
+
+footer {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    background-color: #66a3ff;
+    padding-top: 20px 10px 20px 10px;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    /* padding-top: 30px; */
+    margin: 0;
+}
+
+footer li {
+    list-style: none;
+    justify-content: center;
+    flex-direction: row;
+    color: #000000;
+    margin: 0;
+}
+
+footer i {
+    color: #000000;
+    font-size: 150%;
+}
+
+footer p {
+    margin: 20px;
+    flex-direction: row;
+}
