@@ -119,12 +119,13 @@ h2 {
 
 footer {
     height: 60px;
-    width: 100%;
+    width: 800px;
     text-align: center;
-    background-color: #66a3ff;
+    background-color: #ff8080;
     padding-top: 20px 10px 20px 10px;
     align-items: center;
     border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
 
 }
 
