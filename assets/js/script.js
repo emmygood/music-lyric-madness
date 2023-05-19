@@ -20,9 +20,10 @@ function selectAnswer() {
 
 }
 
-const questions [
-    {
-        question:
-        answer:
-    }
-];
+function calculateScore() {
+
+}
+
+function countdownTimer() {
+    
+}
