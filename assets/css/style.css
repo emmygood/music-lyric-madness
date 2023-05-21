@@ -7,6 +7,10 @@
 
 /* heading and logo */
 
+html, body {
+    height: 100%;
+}
+
 body {
     background-image: url('../images/musicnotes.jpg');
     background: cover;
@@ -21,6 +25,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+body > footer {
+    position: sticky;
+    top: 100vh;
 }
 
 .heading {
@@ -45,7 +54,8 @@ h2 {
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 0 10px 2px;
-    height: 650px;
+    height: 750px;
+    margin-bottom: 10px;
 
 
 
@@ -118,14 +128,17 @@ h2 {
 /* footer */
 
 footer {
+    position: absolute;
     height: 60px;
     width: 800px;
     text-align: center;
     background-color: #ff8080;
-    padding-top: 20px 10px 20px 10px;
+    /* padding-top: 20px 10px 20px 10px; */
     align-items: center;
     border-radius: 5px;
     box-shadow: 0 0 10px 2px;
+    bottom:0px;
+    
 
 }
 
@@ -133,7 +146,6 @@ footer {
 footer ul {
     display: flex;
     justify-content: center;
-    /* padding-top: 30px; */
     margin: 0;
 }
 

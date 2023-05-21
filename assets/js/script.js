@@ -1,6 +1,7 @@
 /* jshint esversion: 11 */
 
 let startButton = document.getElementById('start-button');
+let nextButton = document.getElementById('next-button');
 let questionArea = document.getElementById('question-cont');
 let questionDiv = document.getElementById('question');
 let answerBtns = document.getElementById('answer-buttons');
@@ -26,6 +27,7 @@ function startQuiz() {
 }
 
 function nextQuestion() {
+    resetQuiz();
     displayQuestion(questionsShuffled[questionNumber]);
 
 
@@ -42,6 +44,12 @@ function displayQuestion(question) {
 
 }
 
+function resetQuiz() {
+    nextButton.classList.add('hide');
+    while (answerBtns.firstChild) {
+        answerBtns.removeChild(answerBtns.firstChild);
+    }
+}
 
 function selectAnswer() {
 
