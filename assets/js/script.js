@@ -51,8 +51,29 @@ function resetQuiz() {
     }
 }
 
-function selectAnswer() {
+function selectAnswer(i) {
+    const chosenButton = i.target;
+    const right = chosenButton.dataset.right;
+    setQuizClass(document.body, right);
+    Array.from(answerBtns.children).forEach(button => {
+        setQuizClass(button.dataset.right);
+    })
 
+}
+
+function setQuizClass(element, right) {
+    clearQuizClass(element);
+    if (right) {
+        element.classList.add('right');
+    } else {
+        element.classList.add('wrong');
+    }
+
+}
+
+function clearQuizClass() {
+    element.classList.remove('right');
+    element.classList.remove('wrong');
 }
 
 function calculateScore() {

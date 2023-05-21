@@ -103,6 +103,14 @@ h2 {
     border-color: #ffffff;
 }
 
+.button.right {
+    color: hsl(120, 100%, 40%);
+}
+
+.button.wrong {
+    color: hsl(0, 100%, 50%);
+}
+
 /* control buttons */
 
 .start-btn,
