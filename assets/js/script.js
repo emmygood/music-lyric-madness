@@ -36,10 +36,10 @@ function nextQuestion() {
 function displayQuestion(question) {
     questionDiv.innerText = question.question;
     question.answers.forEach(answer => {
-        let btn = document.createElement('button');
-        btn.innerText = answer.text;
-        btn.classList.add('btn');
-        answerBtns.appendChild(btn);
+        let button = document.createElement('button');
+        button.innerText = answer.text;
+        button.classList.add('button');
+        answerBtns.appendChild(button);
     });
 
 }
