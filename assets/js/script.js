@@ -10,6 +10,10 @@ let questionsShuffled = null;
 let questionNumber = 0;
 
 startButton.addEventListener('click', startQuiz);
+nextButton.addEventListener('click', () => {
+    questionNumber++;
+    nextQuestion();
+})
 
 function shuffleQuestions() {
     questionsShuffled = questions.sort(() => Math.random() - 0.5);
@@ -17,10 +21,10 @@ function shuffleQuestions() {
 
 
 function startQuiz() {
-    console.log('Game started');
     startButton.classList.add('hide');
     questionArea.classList.remove('hide');
     shuffleQuestions();
+    questionNumber = 0;
     nextQuestion();
 
 
@@ -39,6 +43,10 @@ function displayQuestion(question) {
         let button = document.createElement('button');
         button.innerText = answer.text;
         button.classList.add('button');
+        if (answer.correct) {
+            button.dataset.correct = answer.correct;
+        }
+        button.addEventListener('click', selectAnswer);
         answerBtns.appendChild(button);
     });
 
@@ -53,27 +61,35 @@ function resetQuiz() {
 
 function selectAnswer(i) {
     const chosenButton = i.target;
-    const right = chosenButton.dataset.right;
-    setQuizClass(document.body, right);
+    const correct = chosenButton.dataset.correct;
+    setQuizClass(document.body, correct);
     Array.from(answerBtns.children).forEach(button => {
-        setQuizClass(button.dataset.right);
+        setQuizClass(button, button.dataset.correct);
     })
+    if (shuffleQuestions.length > questionNumber + 1) {
+        nextButton.classList.remove('hide');
+    } else {
+        startButton.innerText = 'Reset';
+        startButton.classList.remove('hide');
+    }
+    
 
 }
 
-function setQuizClass(element, right) {
+function setQuizClass(element, correct) {
     clearQuizClass(element);
-    if (right) {
-        element.classList.add('right');
+    if (correct) {
+        element.classList.add('correct');
     } else {
-        element.classList.add('wrong');
+        element.classList.add('incorrect');
     }
 
 }
 
-function clearQuizClass() {
-    element.classList.remove('right');
-    element.classList.remove('wrong');
+
+function clearQuizClass(element) {
+    element.classList.remove('correct');
+    element.classList.remove('incorrect');
 }
 
 function calculateScore() {
