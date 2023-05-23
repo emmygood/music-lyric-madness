@@ -80,7 +80,16 @@ h2 {
 
 }
 
+p {
+    font-weight: bold;
+}
+
 /* game area */
+
+#question {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
 
 .btn-box {
     display: grid;
