@@ -56,39 +56,39 @@ const questions = [
         ]
     },
     {
-        question: "bbb",
+        question: "Which of these aliases has NOT been used by electronic musician Aphex Twin?",
         answers: [
-            {text: "5", correct: false},
-            {text: "6", correct: true},
-            {text: "7", correct: false},
-            {text: "8", correct: false}
+            {text: "Caustic Window", correct: false},
+            {text: "Bradley Strider", correct: false},
+            {text: "GAK", correct: false},
+            {text: "Burial", correct: true}
         ]
     },
     {
-        question: "bbb",
+        question: "What was the title of ABBA`s first UK hit single?",
         answers: [
-            {text: "5", correct: false},
-            {text: "6", correct: true},
-            {text: "7", correct: false},
-            {text: "8", correct: false}
+            {text: "Waterloo", correct: true},
+            {text: "Mamma Mia", correct: false},
+            {text: "Fernando", correct: false},
+            {text: "Dancing Queen", correct: false}
         ]
     },
     {
-        question: "bbb",
+        question: "The heavy metal band Black Sabbath hail from which English city?",
         answers: [
-            {text: "5", correct: false},
-            {text: "6", correct: true},
-            {text: "7", correct: false},
-            {text: "8", correct: false}
+            {text: "Newcastle-Upon-Tyne", correct: false},
+            {text: "London", correct: false},
+            {text: "Manchester", correct: false},
+            {text: "Birmingham", correct: true}
         ]
     },
     {
-        question: "bbb",
+        question: "What was Rage Against the Machine's debut album?",
         answers: [
-            {text: "5", correct: false},
-            {text: "6", correct: true},
-            {text: "7", correct: false},
-            {text: "8", correct: false}
+            {text: "Evil Empire", correct: false},
+            {text: "Bombtrack", correct: false},
+            {text: "Rage Against the Machine", correct: true},
+            {text: "The Battle Of Los Angeles", correct: false}
         ]
     }
 ]
