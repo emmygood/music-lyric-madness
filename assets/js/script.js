@@ -6,6 +6,7 @@ let questionArea = document.getElementById('question-cont');
 let questionDiv = document.getElementById('question');
 let answerBtns = document.getElementById('answer-buttons');
 
+
 let questionsShuffled = null;
 let questionNumber = 0;
 
@@ -24,7 +25,6 @@ function startQuiz() {
     startButton.classList.add('hide');
     questionArea.classList.remove('hide');
     shuffleQuestions();
-    questionNumber = 0;
     nextQuestion();
 
 
@@ -53,6 +53,7 @@ function displayQuestion(question) {
 }
 
 function resetQuiz() {
+    clearQuizClass(document.body);
     nextButton.classList.add('hide');
     while (answerBtns.firstChild) {
         answerBtns.removeChild(answerBtns.firstChild);
@@ -69,7 +70,7 @@ function selectAnswer(i) {
     if (shuffleQuestions.length > questionNumber + 1) {
         nextButton.classList.remove('hide');
     } else {
-        startButton.innerText = 'Reset';
+        startButton.innerText = 'Restart Quiz';
         startButton.classList.remove('hide');
     }
     
