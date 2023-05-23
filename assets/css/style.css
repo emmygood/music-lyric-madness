@@ -15,7 +15,7 @@ body {
     background-image: url('../images/musicnotes.jpg');
     background: cover;
     background-color: #ffffff;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     font-weight: 300;
     color: #000000;
     text-align: center;
@@ -32,11 +32,11 @@ body > footer {
     top: 100vh;
 }
 
-.heading {
-    font-size: 4rem;
+h1 {
+    font-size: 4.5rem;
     text-align: center;
-    padding-top: 15px;
-    margin-top: 20px;
+    padding-top: 5px;
+    margin-top: 10px;
 }
 
 i {
@@ -57,6 +57,7 @@ h2 {
     box-shadow: 0 0 10px 2px;
     height: 970px;
     margin-bottom: 10px;
+    padding: 10px;
 
 
 
@@ -65,7 +66,7 @@ h2 {
 /* how to play area */
 
 .instructions {
-    padding-top: 30px;
+    padding-top: 10px;
 
 }
 
@@ -77,7 +78,8 @@ h2 {
     text-decoration: none;
     color: #000000;
     text-align: left;
-    padding: 20px 20px;
+    padding: 10px 10px;
+    font-size: 1.2rem;
 
 }
 
@@ -105,7 +107,7 @@ p {
     border: 3px solid;
     height: 50px;
     border-radius: 5px;
-    padding: 5px;
+    padding: 3px;
     font-weight: bold;
 }
 
@@ -122,7 +124,7 @@ p {
 }
 
 button {
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -136,7 +138,7 @@ button {
     font-size: 2rem;
     margin: 15px 15px;
     border-color: #000000;
-
+    
 }
 
 .controls {

@@ -65,7 +65,7 @@ const questions = [
         ]
     },
     {
-        question: "What was the title of ABBA`s first UK hit single?",
+        question: "What was the title of ABBA's first UK hit single?",
         answers: [
             {text: "Waterloo", correct: true},
             {text: "Mamma Mia", correct: false},
