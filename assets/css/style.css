@@ -112,12 +112,18 @@ p {
     border-color: #ffffff;
 }
 
-.button.right {
-    color: hsl(120, 100%, 40%);
+.button.correct {
+    color: hsl(120, 100%, 25%);
 }
 
-.button.wrong {
+.button.incorrect {
     color: hsl(0, 100%, 50%);
+}
+
+button {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 /* control buttons */
