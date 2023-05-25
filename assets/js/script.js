@@ -24,6 +24,7 @@ function shuffleQuestions() {
 function startQuiz() {
     startButton.classList.add('hide');
     questionArea.classList.remove('hide');
+    questionNumber;
     shuffleQuestions();
     nextQuestion();
 
