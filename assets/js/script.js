@@ -4,7 +4,7 @@ let startButton = document.getElementById('start-button');
 let nextButton = document.getElementById('next-button');
 let questionArea = document.getElementById('question-cont');
 let questionDiv = document.getElementById('question');
-let answerBtns = document.getElementById('answer-buttons');
+let answerBtns = document.getElementById('answer-btns');
 
 
 let questionsShuffled = null;
@@ -34,8 +34,7 @@ function startQuiz() {
 function nextQuestion() {
     resetQuiz();
     displayQuestion(questionsShuffled[questionNumber]);
-
-
+    
 }
 
 function displayQuestion(question) {
@@ -68,10 +67,10 @@ function selectAnswer(i) {
     Array.from(answerBtns.children).forEach(button => {
         setQuizClass(button, button.dataset.correct);
     })
-    if (shuffleQuestions.length > questionNumber + 1) {
+    if (shuffleQuestions.length < questionNumber + 1) {
         nextButton.classList.remove('hide');
     } else {
-        startButton.innerText = 'Restart Quiz';
+        startButton.innerText = 'Play Again';
         startButton.classList.remove('hide');
     }
     
