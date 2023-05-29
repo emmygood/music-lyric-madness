@@ -1,11 +1,17 @@
 /* jshint esversion: 11 */
 
 let startButton = document.getElementById('start-button');
+let restartButton = document.getElementById('restart-button');
 let nextButton = document.getElementById('next-button');
 let questionArea = document.getElementById('question-cont');
 let questionDiv = document.getElementById('question');
 let answerBtns = document.getElementById('answer-btns');
-
+let intro = document.getElementById('intro');
+let scoreArea = document.getElementById('score-area');
+let correctIncremented = false;
+let incorrectIncremented = false;
+let correctScore = 0;
+let incorrectScore = 0;
 
 let questionsShuffled = null;
 let questionNumber = 0;
@@ -14,7 +20,7 @@ startButton.addEventListener('click', startQuiz);
 nextButton.addEventListener('click', () => {
     questionNumber++;
     nextQuestion();
-})
+});
 
 function shuffleQuestions() {
     questionsShuffled = questions.sort(() => Math.random() - 0.5);
@@ -23,12 +29,12 @@ function shuffleQuestions() {
 
 function startQuiz() {
     startButton.classList.add('hide');
+    intro.classList.add('hide');
     questionArea.classList.remove('hide');
+    scoreArea.classList.remove('hide');
     questionNumber;
     shuffleQuestions();
     nextQuestion();
-
-
 }
 
 function nextQuestion() {
@@ -38,7 +44,7 @@ function nextQuestion() {
 }
 
 function displayQuestion(question) {
-    questionDiv.innerText = question.question;
+    questionDiv.innerText = `Q#${questionNumber + 1}: ${question.question}`;
     question.answers.forEach(answer => {
         let button = document.createElement('button');
         button.innerText = answer.text;
@@ -53,7 +59,6 @@ function displayQuestion(question) {
 }
 
 function resetQuiz() {
-    clearQuizClass(document.body);
     nextButton.classList.add('hide');
     while (answerBtns.firstChild) {
         answerBtns.removeChild(answerBtns.firstChild);
@@ -62,29 +67,49 @@ function resetQuiz() {
 
 function selectAnswer(i) {
     const chosenButton = i.target;
-    const correct = chosenButton.dataset.correct;
-    setQuizClass(document.body, correct);
     Array.from(answerBtns.children).forEach(button => {
-        setQuizClass(button, button.dataset.correct);
-    })
-    if (shuffleQuestions.length < questionNumber + 1) {
+        setQuizClass(button, button.dataset.correct, chosenButton);
+    });
+    if (questionsShuffled.length > questionNumber + 1) {
         nextButton.classList.remove('hide');
+        correctIncremented = false;
+        incorrectIncremented = false;
     } else {
-        startButton.innerText = 'Play Again';
-        startButton.classList.remove('hide');
+        restartButton.classList.remove('hide');
     }
-    
-
 }
 
-function setQuizClass(element, correct) {
+restartButton.addEventListener('click', reLoadQuiz);
+
+function reLoadQuiz() {
+    window.location.reload();
+}
+
+function setQuizClass(element, correct, chosenButton) {
     clearQuizClass(element);
     if (correct) {
         element.classList.add('correct');
+        if (!correctIncremented && chosenButton.dataset.correct) {
+            addCorrect();
+        }
     } else {
         element.classList.add('incorrect');
+        if (!incorrectIncremented && chosenButton.dataset.correct == undefined) {
+            addIncorrect();
+        }
     }
+}
 
+function addCorrect() {
+    correctScore = parseInt(document.getElementById('correct-scores').innerText);
+    document.getElementById('correct-scores').innerText = ++correctScore;
+    correctIncremented = true;
+}
+
+function addIncorrect() {
+    incorrectScore = parseInt(document.getElementById('incorrect-scores').innerText);
+    document.getElementById('incorrect-scores').innerText = ++incorrectScore;
+    incorrectIncremented = true;
 }
 
 
@@ -93,9 +118,6 @@ function clearQuizClass(element) {
     element.classList.remove('incorrect');
 }
 
-function calculateScore() {
-
-}
 
 function countdownTimer() {
     
