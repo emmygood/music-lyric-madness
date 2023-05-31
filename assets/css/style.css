@@ -153,6 +153,10 @@ button {
     display: none;
 }
 
+.disable {
+    pointer-events: none;
+}
+
 /* footer */
 
 footer {

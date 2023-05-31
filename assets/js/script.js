@@ -44,7 +44,7 @@ function nextQuestion() {
 }
 
 function displayQuestion(question) {
-    questionDiv.innerText = `Q#${questionNumber + 1}: ${question.question}`;
+    questionDiv.innerText = `Q${questionNumber + 1}: ${question.question}`;
     question.answers.forEach(answer => {
         let button = document.createElement('button');
         button.innerText = answer.text;
@@ -63,11 +63,16 @@ function resetQuiz() {
     while (answerBtns.firstChild) {
         answerBtns.removeChild(answerBtns.firstChild);
     }
+    let buttons = document.querySelectorAll('.button');
+buttons.forEach(button => {
+    button.classList.remove('disable');
+});
 }
 
 function selectAnswer(i) {
     const chosenButton = i.target;
     Array.from(answerBtns.children).forEach(button => {
+        button.classList.add('disable');
         setQuizClass(button, button.dataset.correct, chosenButton);
     });
     if (questionsShuffled.length > questionNumber + 1) {
