@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--google fonts and font awesome-->
-    <link rel='shortcut icon' type='image/x-icon' href='favicon (5).ico' />
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'>
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8c55020ac5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
@@ -16,17 +16,19 @@
 <body>
     <!--heading and logo-->
 
-    <div class="container">
-        <div id="head-cont">
-        <h1 class="heading">Music Lyric Mayhem</h1>
-        <h2>Test your musical knowledge with this quiz
-            <br><i class="fa-solid fa-music"></i>
-        </h2>
-        </div>
+    <main class="container">
+        <section id="head-cont">
+            <h1 class="heading">Music Lyric Mayhem</h1>
+            <h2 id="test">Test your musical knowledge with this quiz
+                <br>
+                <i class="fa-solid fa-music"></i>
+                <i class="fa-solid fa-rotate-right" id="reload-button"></i>
+            </h2>
+        </section>
 
         <!--intro area-->
 
-        <div class="instructions" id="intro">
+        <section class="instructions" id="intro">
             <h2 id="intro-head">How to play</h2>
             <p id="how-to">
                 You will be shown a lyric from a song and your challenge will be to
@@ -39,10 +41,10 @@
                 <br>
                 Can you guess the correct answer before the time runs out?
             </p>
-        </div>
+        </section>
 
         <!--game area-->
-        <div class="game-area">
+        <section class="game-area">
             <div id="question-cont" class="hide">
                 <div id="question">
                     <h2>Question</h2>
@@ -67,14 +69,15 @@
                 <h2>Incorrect answers: <span id="incorrect-scores">0</span></h2>
             </div>
 
-        </div>
+        </section>
+
         <!--button controls-->
-        <div class="controls">
+        <section class="controls">
             <button id="start-button" class="start-btn button" type="button">START</button>
             <button id="restart-button" class="start-btn button hide" type="button">RESTART</button>
             <button id="next-button" class="next-btn button hide" type="button">NEXT</button>
-        </div>
-    </div>
+        </section>
+    </main>
 
     
 
@@ -82,13 +85,12 @@
     <footer>
 
         <ul>
-            <li><a href="https://github.com/emmygood" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a></li>
-
-            <li><a href="https://www.linkedin.com/in/emily-good-18b675243/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+            <li>
+                <a href="https://github.com/emmygood" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/emily-good-18b675243/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
             </li>
 
-
-            <p><span>&copy;2023 Emily Good</span></p>
+            <p>&copy;2023 Emily Good</p>
         </ul>
 
     </footer>

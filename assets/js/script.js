@@ -2,6 +2,7 @@
 
 let startButton = document.getElementById('start-button');
 let restartButton = document.getElementById('restart-button');
+let reloadButton = document.getElementById('reload-button');
 let nextButton = document.getElementById('next-button');
 let questionArea = document.getElementById('question-cont');
 let questionDiv = document.getElementById('question');
@@ -64,9 +65,9 @@ function resetQuiz() {
         answerBtns.removeChild(answerBtns.firstChild);
     }
     let buttons = document.querySelectorAll('.button');
-buttons.forEach(button => {
-    button.classList.remove('disable');
-});
+    buttons.forEach(button => {
+        button.classList.remove('disable');
+    });
 }
 
 function selectAnswer(i) {
@@ -85,6 +86,7 @@ function selectAnswer(i) {
 }
 
 restartButton.addEventListener('click', reLoadQuiz);
+reloadButton.addEventListener('click', reLoadQuiz);
 
 function reLoadQuiz() {
     window.location.reload();

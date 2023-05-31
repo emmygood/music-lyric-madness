@@ -7,20 +7,18 @@
 
 /* heading and logo */
 
-html, body {
+/* html, body {
     height: 100%;
-}
+} */
 
 body {
     background-image: url('../images/musicnotes.jpg');
-    background: cover;
+    background-size: cover;
     background-color: #ffffff;
     font-family: 'Didact Gothic', sans-serif;
     font-weight: 300;
     color: #000000;
     text-align: center;
-    /* height: 100vh;
-    width: 100vw; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +31,7 @@ body > footer {
 }
 
 h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     text-align: center;
     padding-top: 5px;
     margin-top: 10px;
@@ -50,17 +48,14 @@ h2 {
 
 .container {
     background-color: #66a3ff;
-    width: 800px;
+    min-width: 80%;
     max-width: 80%;
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 0 10px 2px;
-    height: 970px;
-    margin-bottom: 10px;
+    margin: 1em auto;
     padding: 10px;
-
-
-
+    flex-grow: 1;
 }
 
 /* how to play area */
@@ -80,7 +75,6 @@ h2 {
     text-align: left;
     padding: 10px 10px;
     font-size: 1.2rem;
-
 }
 
 p {
@@ -160,31 +154,25 @@ button {
 /* footer */
 
 footer {
-    position: absolute;
-    height: 60px;
-    width: 800px;
+    min-width: 80%;
+    max-width: 80%;
     text-align: center;
     background-color: #ff8080;
     /* padding-top: 20px 10px 20px 10px; */
-    align-items: center;
     border-radius: 5px;
     box-shadow: 0 0 10px 2px;
-    bottom:0px;
-    
-
 }
 
 
 footer ul {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 0;
 }
 
 footer li {
     list-style: none;
-    justify-content: center;
-    flex-direction: row;
     color: #000000;
     margin: 0;
 }
@@ -195,18 +183,32 @@ footer i {
 }
 
 footer p {
-    margin: 20px;
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px
 }
 
 /* media queries */
 
-@media screen and (min-width: 570px) {
-    #head-cont {
-        font-size: 0.5rem;
+@media screen and (min-width: 320px) and (max-width: 780px) {
+    i {
+        font-size: 2rem;
+        
     }
 
-    .container {
-        height: 800px;
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    #question {
+        font-size: 1.9;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    footer ul {
+        flex-direction: row;
     }
 }
