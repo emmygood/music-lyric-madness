@@ -31,6 +31,7 @@ function shuffleQuestions() {
 function startQuiz() {
     startButton.classList.add('hide');
     intro.classList.add('hide');
+    reloadButton.classList.remove('hide');
     questionArea.classList.remove('hide');
     scoreArea.classList.remove('hide');
     questionNumber;
@@ -41,7 +42,6 @@ function startQuiz() {
 function nextQuestion() {
     resetQuiz();
     displayQuestion(questionsShuffled[questionNumber]);
-    
 }
 
 function displayQuestion(question) {
@@ -123,9 +123,4 @@ function addIncorrect() {
 function clearQuizClass(element) {
     element.classList.remove('correct');
     element.classList.remove('incorrect');
-}
-
-
-function countdownTimer() {
-    
 }
