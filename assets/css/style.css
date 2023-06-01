@@ -7,10 +7,6 @@
 
 /* heading and logo */
 
-/* html, body {
-    height: 100%;
-} */
-
 body {
     background-image: url('../images/musicnotes.jpg');
     background-size: cover;
@@ -62,7 +58,6 @@ h2 {
 
 .instructions {
     padding-top: 10px;
-
 }
 
 #intro-head {
@@ -99,12 +94,10 @@ p {
 .button {
     background-color: #ff8080;
     border: 3px solid;
-    height: 50px;
+    height: 58px;
     border-radius: 5px;
-    padding-bottom: 4px;
-    padding: 3px;
-    font-weight: bold;
-    
+    padding: 2px 3px;
+    font-weight: bold;  
 }
 
 .button:hover {
@@ -134,7 +127,6 @@ button {
     font-size: 2rem;
     margin: 15px 15px;
     border-color: #000000;
-    
 }
 
 .controls {
@@ -158,7 +150,6 @@ footer {
     max-width: 80%;
     text-align: center;
     background-color: #ff8080;
-    /* padding-top: 20px 10px 20px 10px; */
     border-radius: 5px;
     box-shadow: 0 0 10px 2px;
 }
@@ -192,19 +183,19 @@ footer p {
 
 /* media queries */
 
-@media screen and (min-width: 320px) and (max-width: 780px) {
+@media screen and (min-width: 320px) {
     i {
-        font-size: 2rem;
-        
+        font-size: 2em;   
     }
 
     h2 {
-        font-size: 1.3rem;
+        font-size: 1.3em;
     }
 
     #question {
-        font-size: 1.9;
+        font-size: 1.9em;
     }
+    
 }
 
 @media screen and (min-width: 600px) {
