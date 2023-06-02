@@ -85,7 +85,9 @@ function selectAnswer(i) {
         correctIncremented = false;
         incorrectIncremented = false;
     } else {
-        restartButton.classList.remove('hide');
+        questionArea.classList.add('hide');
+        endGame();
+        // restartButton.classList.remove('hide');
     }
 }
 
@@ -130,6 +132,6 @@ function clearQuizClass(element) {
 }
 
 function endGame() {
-    localStorage.setItem("updatedScore", score);
+    localStorage.setItem("score", correctScore);
     return window.location.assign("end.html");
 }
