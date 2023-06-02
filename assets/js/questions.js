@@ -1,5 +1,6 @@
 /* jshint esversion: 11 */
 
+// Array and objects of all questions
 const questions = [
     {
         question: "Which of these songs by artist Eminem contain the lyric 'Nice to meet you. Hi, my name is... I forgot my name'?",
