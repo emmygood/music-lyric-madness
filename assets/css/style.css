@@ -7,6 +7,10 @@
 
 /* heading and logo */
 
+html, body {
+    height: 100%;
+}
+
 body {
     background-image: url('../images/musicnotes.jpg');
     background-size: cover;
@@ -218,5 +222,10 @@ footer p {
     .start-btn,
     .next-btn {
         font-size: 2em;
-}
+    }
+
+    #score-correct, #score-incorrect {
+        font-size: 1.4vw;
+
+    }
 }
