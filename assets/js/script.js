@@ -17,19 +17,19 @@ let incorrectScore = 0;
 let questionsShuffled = null;
 let questionNumber = 0;
 
-// start button and next button
+// start button and next button, the question number incrementing by one, leading onto the nextQuesiton function
 startButton.addEventListener('click', startQuiz);
 nextButton.addEventListener('click', () => {
     questionNumber++;
     nextQuestion();
 });
 
-// Function to shuffle all questions each time
+// Function to get all of the questions and shuffle them each time
 function shuffleQuestions() {
     questionsShuffled = questions.sort(() => Math.random() - 0.5);
 }
 
-// Function to the start the quiz, with buttons, sections hidden
+// Function to the start the quiz, with certain buttons and question section hidden
 function startQuiz() {
     startButton.classList.add('hide');
     intro.classList.add('hide');
@@ -131,6 +131,7 @@ function clearQuizClass(element) {
     element.classList.remove('incorrect');
 }
 
+// endGame function to store the users scores to local storage, redirecting them to the end.html page 
 function endGame() {
     localStorage.setItem("score", correctScore);
     return window.location.assign("end.html");
