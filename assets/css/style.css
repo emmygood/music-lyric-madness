@@ -102,7 +102,8 @@ p {
     height: 58px;
     border-radius: 5px;
     padding: 3px 2px;
-    font-weight: bold;  
+    font-weight: bold;
+    text-decoration: none;  
 }
 
 .button:hover {
@@ -203,10 +204,33 @@ footer p {
 
 #end-score, #message {
     font-size: 2.8vh;
-    padding: 3px;
+    padding: 1px;
     margin-bottom: 3px;
 }
 
+#message {
+    padding-bottom: 30px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.refresh {
+    font-size: 2.9vh;
+    padding-left: 3px;
+}
+
+#play-again {
+    padding-right: 10px;
+    font-size: 3vh;
+    margin-top: 20px;
+}
+
+a:hover {
+    border-color: #ffffff;
+}
 
 /* media queries */
 
@@ -216,8 +240,15 @@ footer p {
     }
 }
 
-@media screen and (min-width: 576px) {
-    button {
+@media screen and (min-width: 500px) {
+    #end-image {
+        max-width: 290px;
+    }
+}
+    
+
+  @media screen and (min-width: 576px) {
+     button {
         font-size: 1.5vw;
     }
 
@@ -227,7 +258,7 @@ footer p {
 
     #how-to {
         font-size: 1.5vw;
-    }
+    } 
 
     #test {
         font-size: 1.8vw;
@@ -244,7 +275,6 @@ footer p {
 
     #score-correct, #score-incorrect {
         font-size: 1.4vw;
-
     }
 
     #end-score, #message {
@@ -254,9 +284,14 @@ footer p {
     #end-image {
         max-width: 250px;
     }
-}
 
-@media screen and (min-width: 768px) {
+    #message {
+        margin-bottom: 6px;
+        padding: 6px;
+    }
+} 
+
+@media screen and (min-width: 766px) {
     #end-image {
         max-width: 350px;
     }
