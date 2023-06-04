@@ -242,6 +242,14 @@ a:hover {
     footer ul {
         flex-direction: row;
     }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    #test {
+        font-size: 1vw;
+    }
 }
 
 @media screen and (min-width: 420px) {
@@ -274,7 +282,7 @@ a:hover {
     }
 
     h1 {
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     i {
@@ -292,7 +300,7 @@ a:hover {
     } 
 
     #test {
-        font-size: 3vh;
+        font-size: 3vw;
     }
 
     #question {
