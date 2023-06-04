@@ -38,7 +38,7 @@ h1 {
 }
 
 i {
-    font-size: 2.5vh;
+    font-size: 4vh;
     padding: 16px;
 }
 
@@ -267,13 +267,13 @@ a:hover {
 }
     
 
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 500px) and (min-width: 700px) {
     button {
-        font-size: 2.8vw;
+        font-size: 2.5vw;
     }
 
     h1 {
-        font-size: 6vh;
+        font-size: 6vw;
     }
 
     i {
@@ -282,7 +282,7 @@ a:hover {
 
 
     #intro-head {
-        font-size: 4vw;
+        font-size: 3vw;
         padding: 20px 30px;
     }
 
@@ -291,11 +291,11 @@ a:hover {
     } 
 
     #test {
-        font-size: 2.6vh;
+        font-size: 3vh;
     }
 
     #question {
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
 
     .start-btn,
@@ -304,7 +304,7 @@ a:hover {
     }
 
     #score-correct, #score-incorrect {
-        font-size: 2.8vw;
+        font-size: 2.5vw;
     }
 
     #end-score, #message {
@@ -317,17 +317,17 @@ a:hover {
     }
 } 
 
-@media screen and (min-width: 610px) and (min-width: 901px) {
+@media screen and (min-width: 901px) and (min-width: 1200px) {
     button {
         font-size: 1.5vw;
     }
 
     h1 {
-        font-size: 5vw;
+        font-size: 4.5vw;
     }
 
     i {
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     #how-to {
@@ -345,7 +345,7 @@ a:hover {
     }
 
     #question {
-        font-size: 1.8vw;
+        font-size: 2vw;
     }
 
     #score-correct, #score-incorrect {
