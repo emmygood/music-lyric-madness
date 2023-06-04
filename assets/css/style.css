@@ -240,15 +240,59 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 480px) {
     #end-image {
-        max-width: 290px;
+        max-width: 280px;
     }
 }
     
 
-  @media screen and (min-width: 576px) {
-     button {
+  @media screen and (min-width: 575px) {
+    button {
+        font-size: 2.8vw;
+    }
+
+    h1 {
+        font-size: 6vh;
+    }
+
+    #how-to {
+        font-size: 3vw;
+    } 
+
+    #test {
+        font-size: 3vw;
+    }
+
+    #question {
+        font-size: 3vw;
+    }
+
+    .start-btn,
+    .next-btn {
+        font-size: 2em;
+    }
+
+    #score-correct, #score-incorrect {
+        font-size: 2.8vw;
+    }
+
+    #end-score, #message {
+        font-size: 3.3vh;
+    }
+
+    /* #end-image {
+        max-width: 250px;
+    } */
+
+    #message {
+        margin-bottom: 6px;
+        padding: 6px;
+    }
+} 
+
+@media screen and (min-width: 690px) and (min-width: 920px) {
+    button {
         font-size: 1.5vw;
     }
 
@@ -260,38 +304,28 @@ a:hover {
         font-size: 1.5vw;
     } 
 
-    #test {
+    #intro-head {
         font-size: 1.8vw;
     }
 
-    #question {
-        font-size: 1.6vw;
+    #test {
+        font-size: 2vw;
     }
 
-    .start-btn,
-    .next-btn {
-        font-size: 2em;
+    #question {
+        font-size: 1.8vw;
     }
 
     #score-correct, #score-incorrect {
-        font-size: 1.4vw;
+        font-size: 1.5vw;
     }
 
-    #end-score, #message {
-        font-size: 3.3vh;
+    #play-again {
+        padding-bottom: 5px;
     }
+}
 
-    #end-image {
-        max-width: 250px;
-    }
-
-    #message {
-        margin-bottom: 6px;
-        padding: 6px;
-    }
-} 
-
-@media screen and (min-width: 766px) {
+@media screen and (min-width: 712px) {
     #end-image {
         max-width: 350px;
     }
