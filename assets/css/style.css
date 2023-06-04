@@ -38,12 +38,12 @@ h1 {
 }
 
 i {
-    font-size: 1.5em;
+    font-size: 2.5vh;
     padding: 16px;
 }
 
 #test {
-    font-size: 1em;
+    font-size: 2vh;
 }
 
 .container {
@@ -66,15 +66,18 @@ i {
 
 #intro-head {
     text-decoration: underline;
-    font-size: 1.2em;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 1em;
 }
 
 #how-to {
     text-decoration: none;
     color: #000000;
     text-align: left;
-    padding: 10px 30px;
-    font-size: 1em;
+    padding-left: 3px;
+    padding-bottom: 20px;
+    font-size: 2.3vh;
 }
 
 p {
@@ -240,14 +243,31 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 420px) {
     #end-image {
         max-width: 280px;
+    }
+
+    i {
+        font-size: 2em;
+    }
+
+    #test {
+        font-size: 3.5vw;
+    }
+
+    #intro-head {
+        font-size: 3vh;
+    }
+
+    #how-to {
+        padding-left: 10px;
+        font-size: 2.5vh;
     }
 }
     
 
-  @media screen and (min-width: 575px) {
+  @media screen and (min-width: 500px) {
     button {
         font-size: 2.8vw;
     }
@@ -256,12 +276,22 @@ a:hover {
         font-size: 6vh;
     }
 
+    i {
+        font-size: 2em;
+    }
+
+
+    #intro-head {
+        font-size: 4vw;
+        padding: 20px 30px;
+    }
+
     #how-to {
-        font-size: 3vw;
+        font-size: 2.8vh;
     } 
 
     #test {
-        font-size: 3vw;
+        font-size: 2.6vh;
     }
 
     #question {
@@ -281,17 +311,13 @@ a:hover {
         font-size: 3.3vh;
     }
 
-    /* #end-image {
-        max-width: 250px;
-    } */
-
     #message {
         margin-bottom: 6px;
         padding: 6px;
     }
 } 
 
-@media screen and (min-width: 690px) and (min-width: 920px) {
+@media screen and (min-width: 610px) and (min-width: 901px) {
     button {
         font-size: 1.5vw;
     }
@@ -300,12 +326,18 @@ a:hover {
         font-size: 5vw;
     }
 
+    i {
+        font-size: 4vw;
+    }
+
     #how-to {
-        font-size: 1.5vw;
+        /* font-size: 3vh; */
+        padding-left: 40px;
     } 
 
     #intro-head {
-        font-size: 1.8vw;
+        font-size: 3.3vh;
+        padding-bottom: 10px;
     }
 
     #test {
