@@ -47,7 +47,7 @@ function nextQuestion() {
     displayQuestion(questionsShuffled[questionNumber]);
 }
 
-// Function to display the question and whether an answer button is clicked
+// Function to display the question and loop through them, and adding the answers to the answer buttons
 function displayQuestion(question) {
     questionDiv.innerText = `Q${questionNumber + 1}: ${question.question}`;
     question.answers.forEach(answer => {
@@ -63,6 +63,7 @@ function displayQuestion(question) {
 
 }
 
+// resetQuiz function to reset the quiz back to its defualt state everytime a new question is set
 function resetQuiz() {
     nextButton.classList.add('hide');
     while (answerBtns.firstChild) {
@@ -74,6 +75,7 @@ function resetQuiz() {
     });
 }
 
+// function to check what answer has been selected and looping through them to check if it is correct or not
 function selectAnswer(i) {
     const chosenButton = i.target;
     Array.from(answerBtns.children).forEach(button => {
@@ -94,10 +96,12 @@ function selectAnswer(i) {
 restartButton.addEventListener('click', reLoadQuiz);
 reloadButton.addEventListener('click', reLoadQuiz);
 
+// function to allow the user to return to index.html if they want to start the quiz from the beginning 
 function reLoadQuiz() {
     window.location.reload();
 }
 
+// function to add the right class to the chosenButton, correct or incorrect, turning it either green or red
 function setQuizClass(element, correct, chosenButton) {
     clearQuizClass(element);
     if (correct) {
@@ -113,19 +117,21 @@ function setQuizClass(element, correct, chosenButton) {
     }
 }
 
+// function to increment the score by 1 if answer chosen correctly, adding to the score area, and displaying to the user
 function addCorrect() {
     correctScore = parseInt(document.getElementById('correct-scores').innerText);
     document.getElementById('correct-scores').innerText = ++correctScore;
     correctIncremented = true;
 }
 
+// function to increment the score by 1 if the user gets the answer wrong, and adding the number to the score area
 function addIncorrect() {
     incorrectScore = parseInt(document.getElementById('incorrect-scores').innerText);
     document.getElementById('incorrect-scores').innerText = ++incorrectScore;
     incorrectIncremented = true;
 }
 
-
+// function removing the correct and incorrect class on the chosen button answer
 function clearQuizClass(element) {
     element.classList.remove('correct');
     element.classList.remove('incorrect');
