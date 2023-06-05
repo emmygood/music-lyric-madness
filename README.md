@@ -5,7 +5,9 @@
 
 ## Introduction
 
-Music Lyric Madness is an interactive general knowledge music quiz game. The aim of this game is for the user to select the correct answer to the question from the multiple choice selection. The questions are a mixture of difficulties, with songs ranging from all eras of music. The user is shown a lyric from a song, and must guess the correct name of the song, that the lyric is from. Each question will have four multiple choice answers for the user to choose from. The user is shown their score as they move along through the questions.
+Music Lyric Madness is an interactive general knowledge music quiz game. The aim of this game is for the user to select the correct answer to the question from the multiple choice selection. The questions are a mixture of difficulties, with songs ranging from all eras of music. The user is shown a lyric from a song, and must guess the correct name of the song, that the lyric is from. Each question will have four multiple choice answers for the user to choose from. The user is shown their score as they move along through the ten questions.
+
+---
 
 ## UX
 
@@ -22,3 +24,43 @@ When the answer is chosen, I wanted the user to easily see which one is correct 
 - hsl(0, 100%, 40%) used for the button font and border, when answer is incorrect
 - #000000 used for all font and icons
 - #ffffff used for button:hover 
+
+
+![screenshot](documentation/colors.png)
+
+### Typography 
+
+[Google Fonts](https://fonts.google.com/) was imported to select all the fonts. With sans-serif as a fallback for Didact Gothic. I just had the one font to keep consistency throughout the site. This font is clear and easy to read, making sure accessibility was a priority. 
+
+- [Didact Gothic](https://fonts.google.com/specimen/Didact+Gothic?query=Didact+Gothic) used for all font across the site
+
+- [Font Awesome](https://fontawesome.com/) icons used throughout the site including, the music note logo icon, and the refresh button, and the social media icons in the footer.
+
+---
+
+## User Stories
+
+
+### Audience 
+- People looking for a quick and fun game to play.
+- People looking to be able to play the game with others.
+- People of all ages engaging in answering the questions, which are of all difficulties.
+- People that have a love of music, to be able to put their knowledge to the test.
+
+### New Site Users
+- As a new site user, I would like to gain a quick understanding of the theme of the game, so I can decide if I know enough to give it a go.
+- As a new site user, I would like to know what the game invloves, so that I can decide if I have enough time.
+- As a new site user, I would like to play the game of multiple devices.
+- As a new site user, I would like to follow simple, easy to follow rules of the game, so I can navigate throught the questions quickly.
+- As a new site user, I would like to have fun, playing a general knowledge quiz.
+
+### Returning Users
+- As a returning user, I want to be able to see what my score is, so that I can beat it from last time.
+- As a returning user, I want some kind of feedback at the end, so I know how well or bad I have done.
+- As a returning user, I want to be able to start the game quickly, as I have already played before.
+
+### Site Admin 
+- As a site administrator, I want people to have clear, simple instructions on how to play.
+- As a site administrator, I should be able to appeal to a wide demographic, with a range of questions.
+
+
