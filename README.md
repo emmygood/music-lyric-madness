@@ -48,7 +48,7 @@ When the answer is chosen, I wanted the user to easily see which one is correct 
 - People that have a love of music, to be able to put their knowledge to the test.
 
 ### New Site Users
-- As a new site user, I would like to gain a quick understanding of the theme of the game, so I can decide if I know enough to give it a go.
+- As a new site user, I would like to gain a quick understanding of the theme of the game, so I can decide if I know enough to play.
 - As a new site user, I would like to know what the game invloves, so that I can decide if I have enough time.
 - As a new site user, I would like to play the game of multiple devices.
 - As a new site user, I would like to follow simple, easy to follow rules of the game, so I can navigate throught the questions quickly.
@@ -62,5 +62,20 @@ When the answer is chosen, I wanted the user to easily see which one is correct 
 ### Site Admin 
 - As a site administrator, I want people to have clear, simple instructions on how to play.
 - As a site administrator, I should be able to appeal to a wide demographic, with a range of questions.
+- As a site administrator, I want the user to be able to view their scores and get feedback.
 
+---
+
+## Features
+### Common Features
+
+#### Logo and heading
+- The name of the game along with the heading remain the same when playing the game and also do not change when played on different screen sizes. I purposley did not want this too big, as I wanted the questions to be the forefront of the game.
+- The heading gives the user more information about what the quiz is about.
+- The font Awesome music note icon, is consistant when playing the game. It is a quick indicator for the user as to what the game is about.
+- When the game has started, and the user moves onto the first question, the refresh icon will appear. This is included to give the user the chance to return to the home page if they decide they want to start again, or re-read the instructions. 
+
+![screenshot](documentation/heading.png)
+
+![screenshot](documentation/refresh2.png)
 
