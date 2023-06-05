@@ -353,7 +353,8 @@ a:hover {
     }
 
     #question {
-        font-size: 2vw;
+        font-size: 1.6vw;
+        padding-top: 20px;
     }
 
     #score-correct, #score-incorrect {
