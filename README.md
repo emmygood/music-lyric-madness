@@ -1,11 +1,11 @@
-# Music Lyric Madness
+# Music Quiz Madness
 
-![screenshot](documentation/mockup.png)
+![screenshot](documentation/mockup2.png)
 [Live site](https://emmygood.github.io/music-lyric-madness/)
 
 ## Introduction
 
-Music Lyric Madness is an interactive general knowledge music quiz game. The aim of this game is for the user to select the correct answer to the question from the multiple choice selection. The questions are a mixture of difficulties, with songs ranging from all eras of music. The user is shown a lyric from a song, and must guess the correct name of the song, that the lyric is from. Each question will have four multiple choice answers for the user to choose from. The user is shown their score as they move along through the ten questions.
+Music Quiz Madness is an interactive general knowledge music quiz game. The aim of this game is for the user to select the correct answer to the question from the multiple choice selection. The questions are a mixture of difficulties, with songs ranging from all eras of music. The user is shown a question from music trivia, and must guess the correct answer to the question. Each question will have four multiple choice answers for the user to choose from. The user is shown their score as they move along through the ten questions, and will recieve feedback of their final score at the end.
 
 ---
 
@@ -14,8 +14,8 @@ Music Lyric Madness is an interactive general knowledge music quiz game. The aim
 ### Color Scheme
 
 
-As Music Lyric Madness is a quiz game based on music, I chose the background to be full of music notes. I didn't want the background to be too busy, so I stuck with black and white colors for this. The aim of this is so that when the user opens up the site they will have a general idea of what the theme of this quiz is. This background is consistent across all devices.
-I wanted the game itself to be inside a box over the top of the background, as this made the content easier to see. To juxtapose against the simple background colors, I went with paler versions; of blue and pink, so it was not too overpowering. Then I kept the text simple, being black, as this is easy to read against the blue and pink.
+I chose the background to be full of music notes as this is what the game is based on. I didn't want the background to be too busy, so I stuck with black and white colors for this. 
+I wanted the game itself to be inside a box overlapping the background, as this made the content easier to see. To juxtapose against the simple background colors, I went with paler versions; of blue and pink, so it was not too overpowering. Then I kept the text simple, being black, as this is easy to read against the blue and pink.
 When the answer is chosen, I wanted the user to easily see which one is correct and which are incorrect. Therefore I chose a red and and a green, to change the font and border color. I used [coolors.co](https://coolors.co/ff8080-cc0000-66a3ff-004d00) to generate my color palette.
 
 - #66a3ff used for the content box
@@ -69,13 +69,62 @@ When the answer is chosen, I wanted the user to easily see which one is correct 
 ## Features
 ### Common Features
 
+#### Background and Favicon
+- As Music Quiz Madness is a quiz game based on music, I wanted the background to reflect this. 
+- In order for the background to not distract from the game itself, the colors are simple black and white.
+- The aim of this is so that when the user opens up the site they will have a general idea of what the theme of this quiz is. This background is consistent across all devices.
+
+![screenshot](documentation/backg.png)
+
 #### Logo and heading
-- The name of the game along with the heading remain the same when playing the game and also do not change when played on different screen sizes. I purposley did not want this too big, as I wanted the questions to be the forefront of the game.
+- The name of the game along with the heading remain the same when playing the game, and also do not change when played on different screen sizes. This is purposley not too big, as I wanted the questions to be the forefront of the game.
 - The heading gives the user more information about what the quiz is about.
 - The font Awesome music note icon, is consistant when playing the game. It is a quick indicator for the user as to what the game is about.
-- When the game has started, and the user moves onto the first question, the refresh icon will appear. This is included to give the user the chance to return to the home page if they decide they want to start again, or re-read the instructions. 
+- When the game has started, and the user moves onto the first question, the refresh icon will appear, next to the music note. This is included to give the user the chance to return to the home page if they decide they want to start again, or re-read the instructions. 
 
 ![screenshot](documentation/heading.png)
 
-![screenshot](documentation/refresh2.png)
+![screenshot](documentation/refresh.png)
 
+#### Footer
+- The footer is separate from the game area, so it is not in the way or distracting to the user when playing.
+- The footer contains the copyright and social media links which are displayed as font awesome icons.
+- It is the same width as the game area box to keep the theme consistant but to separate it from the game it is in the color #ff8080. 
+- It is consistent across all devices, giving the user easier access to find them.
+
+![screenshot](documentation/footer.png)
+
+#### How To Play Area
+- The how to play area, is situated under the heading and icons of the home page. Consisting of easy to follow and quick to read steps on how to play the game.
+- This area is useful for the user so they know what to expect and always have a point to refer back to if needed.
+- This area is hidden once the game is started.
+- When the game is started, the refresh icon will appear, once clicked it takes you back to this page, where the instructions are displayed. 
+
+![screenshot](documentation/howto.png)
+
+#### Start Button
+- The start button is displayed underneath the how to play instructions. So once the user has read the steps they can get straight on and begin the game. This is the case across all devices.
+- In order for the button to stand out against the blue, it is in the color #ff8080. When the user hovers over the button, the border will turn white #ffffff to let the user know they should click on that button.
+- When the game has started this button is hidden.
+
+![screenshot](documentation/start.png)
+![screenshot](documentation/start2.png)
+
+#### Question and Answers
+- When the user clicks the start button the first question appears in place of the instructions.
+- The questions are numbered to give the user insight into what number they are on.
+- The questions will never appear in the same order, they are shuffled every game.
+- There are four multiple choice answers, for the user to choose from.
+- When hovered over, each button outline will turn white #ffffff to indicate it is clickable.
+- Once the answer is chosen, the correct answer will turn green hsl(120, 100%, 15%), leaving the incorrect answers to tun red hsl(0, 100%, 40%). This is giving immediate feedback to the user which should make them continue to play because it means they do not have to wait until the end to recieve the correct answer.
+- This section is responsive to any device.
+
+![screenshot](documentation/questions.png)
+![screenshot](documentation/chosen.png)
+
+#### Score Area and Next Button
+- This is visible as soon as the game has started.
+- When the player selects their answer, the score area will update by one, to either the correct answer or the incorrect answer. This feedback givien to the user will make them want to improve upon their score.
+- The next button is only visible when an answer is selected, this is so they cannot skip a question.
+
+![screenshot](documentation/score.png)
