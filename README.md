@@ -14,8 +14,9 @@ Music Quiz Madness is an interactive general knowledge music quiz game. The aim 
 ### Color Scheme
 
 
-I chose the background to be full of music notes as this is what the game is based on. I didn't want the background to be too busy, so I stuck with black and white colors for this. 
-I wanted the game itself to be inside a box overlapping the background, as this made the content easier to see. To juxtapose against the simple background colors, I went with paler versions; of blue and pink, so it was not too overpowering. Then I kept the text simple, being black, as this is easy to read against the blue and pink.
+The background is full of music notes as this is what the game is based on. I didn't want the background to be too busy, so I stuck with black and white colors for this. 
+The game itself is inside a box overlapping the background, as this made the content easier to see. 
+To juxtapose against the simple background colors, I went with paler versions; of blue and pink, so it was not too overpowering. Then I kept the text simple, being black, as this is easy to read against the blue and pink.
 When the answer is chosen, I wanted the user to easily see which one is correct and which are incorrect. Therefore I chose a red and and a green, to change the font and border color. I used [coolors.co](https://coolors.co/ff8080-cc0000-66a3ff-004d00) to generate my color palette.
 
 - #66a3ff used for the content box
