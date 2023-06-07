@@ -13,11 +13,11 @@ let scoreQuiz = parseInt(updatedScore);
 let endScore = "";
 
 if (scoreQuiz <= 4) {
-    // response and image for a low score
+    // response and image for a low score 4 or less
     endScore = "Bad luck! Have another go";
     endImage.src = 'assets/images/broken.jpg';
 } else if (scoreQuiz >= 5 && scoreQuiz <= 7) {
-    // response and image for average score
+    // response and image for average score between 5 and 7
     endScore = "You know your stuff!";
     endImage.src = 'assets/images/microp.jpg';
 } else {

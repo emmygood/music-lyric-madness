@@ -13,18 +13,17 @@ Music Quiz Madness is an interactive general knowledge music quiz game. The aim 
 
 ### Color Scheme
 
+- The background is full of music notes as this is what the game is based on. I didn't want the background to be too busy, so I stuck with black and white colors for this. 
+- The game itself is inside a box overlapping the background, as this made the content easier to see. 
+- To juxtapose against the simple background colors, I went with paler versions; of blue and pink, so it was not too overpowering. Then I kept the text simple, being black, as this is easy to read against the blue and pink.
+- When the answer is chosen, I wanted the user to easily see which one is correct and which are incorrect. Therefore I chose a red and and a green, to change the font and border color. I used [coolors.co](https://coolors.co/ff8080-cc0000-66a3ff-004d00) to generate my color palette.
 
-The background is full of music notes as this is what the game is based on. I didn't want the background to be too busy, so I stuck with black and white colors for this. 
-The game itself is inside a box overlapping the background, as this made the content easier to see. 
-To juxtapose against the simple background colors, I went with paler versions; of blue and pink, so it was not too overpowering. Then I kept the text simple, being black, as this is easy to read against the blue and pink.
-When the answer is chosen, I wanted the user to easily see which one is correct and which are incorrect. Therefore I chose a red and and a green, to change the font and border color. I used [coolors.co](https://coolors.co/ff8080-cc0000-66a3ff-004d00) to generate my color palette.
-
-- #66a3ff used for the content box
-- #ff8080 used for the buttons, and footer
-- hsl(120, 100%, 15%) used for the button font and border, when answer is correct
-- hsl(0, 100%, 40%) used for the button font and border, when answer is incorrect
-- #000000 used for all font and icons
-- #ffffff used for button:hover 
+  - #66a3ff used for the content box
+  - #ff8080 used for the buttons, and footer
+  - hsl(120, 100%, 15%) used for the button font and border, when answer is correct
+  - hsl(0, 100%, 40%) used for the button font and border, when answer is incorrect
+  - #000000 used for all font and icons
+  - #ffffff used for button:hover 
 
 
 ![screenshot](documentation/colors.png)
@@ -71,6 +70,7 @@ When the answer is chosen, I wanted the user to easily see which one is correct 
 ### Common Features
 
 #### Background and Favicon
+
 - As Music Quiz Madness is a quiz game based on music, I wanted the background to reflect this. 
 - In order for the background to not distract from the game itself, the colors are simple black and white.
 - The aim of this is so that when the user opens up the site they will have a general idea of what the theme of this quiz is. This background is consistent across all devices.
@@ -78,6 +78,7 @@ When the answer is chosen, I wanted the user to easily see which one is correct 
 ![screenshot](documentation/backg.png)
 
 #### Logo and heading
+
 - The name of the game along with the heading remain the same when playing the game, and also do not change when played on different screen sizes. This is purposley not too big, as I wanted the questions to be the forefront of the game.
 - The heading gives the user more information about what the quiz is about.
 - The font Awesome music note icon, is consistant when playing the game. It is a quick indicator for the user as to what the game is about.
@@ -88,6 +89,7 @@ When the answer is chosen, I wanted the user to easily see which one is correct 
 ![screenshot](documentation/refresh.png)
 
 #### Footer
+
 - The footer is separate from the game area, so it is not in the way or distracting to the user when playing.
 - The footer contains the copyright and social media links which are displayed as font awesome icons.
 - It is the same width as the game area box to keep the theme consistant but to separate it from the game it is in the color #ff8080. 
@@ -96,6 +98,7 @@ When the answer is chosen, I wanted the user to easily see which one is correct 
 ![screenshot](documentation/footer.png)
 
 #### How To Play Area
+
 - The how to play area, is situated under the heading and icons of the home page. Consisting of easy to follow and quick to read steps on how to play the game.
 - This area is useful for the user so they know what to expect and always have a point to refer back to if needed.
 - This area is hidden once the game is started.
@@ -104,6 +107,7 @@ When the answer is chosen, I wanted the user to easily see which one is correct 
 ![screenshot](documentation/howto.png)
 
 #### Start Button
+
 - The start button is displayed underneath the how to play instructions. So once the user has read the steps they can get straight on and begin the game. This is the case across all devices.
 - In order for the button to stand out against the blue, it is in the color #ff8080. When the user hovers over the button, the border will turn white #ffffff to let the user know they should click on that button.
 - When the game has started this button is hidden.
@@ -112,6 +116,7 @@ When the answer is chosen, I wanted the user to easily see which one is correct 
 ![screenshot](documentation/start2.png)
 
 #### Question and Answers
+
 - When the user clicks the start button the first question appears in place of the instructions.
 - The questions are numbered to give the user insight into what number they are on.
 - The questions will never appear in the same order, they are shuffled every game.
@@ -124,8 +129,38 @@ When the answer is chosen, I wanted the user to easily see which one is correct 
 ![screenshot](documentation/chosen.png)
 
 #### Score Area and Next Button
+
 - This is visible as soon as the game has started.
 - When the player selects their answer, the score area will update by one, to either the correct answer or the incorrect answer. This feedback givien to the user will make them want to improve upon their score and keep  playing.
-- The next button is only visible when an answer is selected, this is so the user cannot skip a question.
+- The next button is only visible when an answer is selected, this is so the user cannot skip a question and to give control to the user.
 
 ![screenshot](documentation/score.png)
+
+#### End Game
+
+- After the ten questions are completed, the quiz will end and the user is shown their score.
+- Along with the score, there will be an image and message that matches the score they got.
+- There are three different pictures the user could get depending on their final score:
+  - If they recieved 4 points or less
+  - Between 5 and 7
+  - More than 7. This feedback will give the user intentive to re-take the quiz or compare with others.
+- The option to play the game again, is shown here. Using the same refresh icon as before, to keep consistency. This button takes the user back to the home page, and back to the start button giving them another go.
+
+![screenshot](documentation/endgame.png) ![screenshot](documentation/endgame2.png)
+![screenshot](documentation/endgame3.png) 
+
+![screenshot](documentation/playagain.png)
+
+### Future Features
+
+- A timer feature
+  - So the user plays against a clock, which will add extra pressure.
+- More questions
+  - Again, adding pressure to get more than ten right.
+- Different eras of music
+  - The ability for the user to choose what specific era of music they want to be quizzed on. Which means the quiz will attract a wider demographic.
+
+---
+
+## Tools and Technologies Used
+
