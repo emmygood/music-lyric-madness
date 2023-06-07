@@ -125,7 +125,7 @@ When the answer is chosen, I wanted the user to easily see which one is correct 
 
 #### Score Area and Next Button
 - This is visible as soon as the game has started.
-- When the player selects their answer, the score area will update by one, to either the correct answer or the incorrect answer. This feedback givien to the user will make them want to improve upon their score.
-- The next button is only visible when an answer is selected, this is so they cannot skip a question.
+- When the player selects their answer, the score area will update by one, to either the correct answer or the incorrect answer. This feedback givien to the user will make them want to improve upon their score and keep  playing.
+- The next button is only visible when an answer is selected, this is so the user cannot skip a question.
 
 ![screenshot](documentation/score.png)
