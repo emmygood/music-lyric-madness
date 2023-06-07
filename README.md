@@ -214,10 +214,27 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
 
-- Script js file - Unused variables from external files
+- Script js file - Unused variables from external files, coming from the questions.js file
 
 ![screenshot](documentation/jshint1.png)
 
 - Questions js file - Unused variables from external files
 
 ![screenshot](documentation/questhint.png)
+
+- End js file - Pass: No Errors
+
+![screenshot](documentation/endhint.png)
+
+## Responsivness 
+
+I have used the Wave Web Accessibility Evaluation Tool to make sure the site is accessible for all. All pages passed with no errors. Here are the results below.
+
+- [Wave Link Home](https://wave.webaim.org/report#/https://emmygood.github.io/music-quiz-madness/index.html)
+
+- [Wave Link End](https://wave.webaim.org/report#/https://emmygood.github.io/music-quiz-madness/end.html)
+
+![screenshot](documentation/wave1.png)
+
+## Compatability 
+
