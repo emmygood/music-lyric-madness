@@ -167,3 +167,21 @@ Music Quiz Madness is an interactive general knowledge music quiz game. The aim 
 
 ## Tools and Technologies Used
 
+- [HTML](https://en.wikipedia.org/wiki/HTML) Used for the main site content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) Used for the site design as well as layout.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) Used to enhance the responsive layout.
+- [JavaScript](https://www.javascript.com) Used for the interaction on the site.
+- [Git](https://git-scm.com) Used for version control. (git add, git commit, git push)
+- [GitHub](https://github.com) used for secure online code storage.
+- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
+- [Markdown Builder](https://traveltimn.github.io/markdown-builder/) by Tim Nelson used to help generate the Markdown files.
+- [Python Tutor](https://pythontutor.com/visualize.html#mode=edit) To visualise the execution of the javascript code.
+
+---
+## Testing
+
+I have tested the site on different browsers (Chrome, Firefox, Safari) as well as different screen sizes (laptop, tablet and smartphone) to test the responsivness. As well as this, I tested the site with development tools, whilst in the building stages, to ensure the responsivness of the site across different devices.
+
+### HTML Validaton
+
+I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.

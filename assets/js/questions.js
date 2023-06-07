@@ -92,4 +92,4 @@ const questions = [
             {text: "The Battle Of Los Angeles", correct: false}
         ]
     }
-]
+];

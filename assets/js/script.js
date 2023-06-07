@@ -36,7 +36,6 @@ function startQuiz() {
     reloadButton.classList.remove('hide');
     questionArea.classList.remove('hide');
     scoreArea.classList.remove('hide');
-    questionNumber;
     shuffleQuestions();
     nextQuestion();
 }
