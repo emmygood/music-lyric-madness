@@ -74,6 +74,9 @@ Music Quiz Madness is an interactive general knowledge music quiz game. The aim 
 - As Music Quiz Madness is a quiz game based on music, I wanted the background to reflect this. 
 - In order for the background to not distract from the game itself, the colors are simple black and white.
 - The aim of this is so that when the user opens up the site they will have a general idea of what the theme of this quiz is. This background is consistent across all devices.
+- The favicon will help users to know that this is the correct site they're looking for, improving site SEO.
+
+![screenshot](documentation/favicon.png)
 
 ![screenshot](documentation/backg.png)
 
