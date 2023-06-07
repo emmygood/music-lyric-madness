@@ -203,3 +203,21 @@ Lack of headings h2-h6. And again for the same buttons, but I am leaving them as
 ![screenshot](documentation/endval.png)
 
 ### CSS 
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+
+- Pass: No Errors [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femmygood.github.io%2Fmusic-quiz-madness%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![screenshot](documentation/cssval%20(2).png)
+
+### Javascript
+
+I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
+
+- Script js file - Unused variables from external files
+
+![screenshot](documentation/jshint1.png)
+
+- Questions js file - Unused variables from external files
+
+![screenshot](documentation/questhint.png)
