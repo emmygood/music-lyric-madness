@@ -185,3 +185,8 @@ I have tested the site on different browsers (Chrome, Firefox, Safari) as well a
 ### HTML Validaton
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
+
+- Home - [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fmusic-quiz-madness%2F) Lack of headings h2-h6. I am aware of this warning, however this section is for the control buttons, therefore they do not need to be headings. This does not effect the final look of the site in the browsers.
+![screenshot](documentation/homeval.png)
+
+- Game - 
