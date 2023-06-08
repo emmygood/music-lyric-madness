@@ -36,3 +36,26 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 | end.js | ![screenshot](documentation/endhint.png) | Pass: No Errors |
 
 ---
+
+## Responsivness 
+
+I have used the Wave Web Accessibility Evaluation Tool to make sure the site is accessible for all. All pages passed with no errors. Here are the results below.
+
+- [Wave Link Home](https://wave.webaim.org/report#/https://emmygood.github.io/music-quiz-madness/index.html)
+
+- [Wave Link End](https://wave.webaim.org/report#/https://emmygood.github.io/music-quiz-madness/end.html)
+
+![screenshot](documentation/wave1.png)
+
+## Compatability 
+
+I have tested the site on different browsers (Chrome, Firefox, Safari) as well as different screen sizes (laptop, tablet and smartphone) to test the responsivness. As well as this, I tested the site with development tools, whilst in the building stages, to ensure the responsivness of the site across different devices.
+
+I tested the site on different devices to set the compatability. I tested it on my smartphone (samsung) and was very pleased with how everything responded. As well as testing it on my laptop to see how it responded to a larger screen size.
+
+| Device | Screenshot | Notes |
+| --- | --- | --- |
+| Mobile (DevTools) | ![screenshot](documentation/validation/samsung1.png) | Works as expected |
+|                   | ![screenshot](documentation/validation/samsung2.png) |
+|                   | ![screenshot](documentation/validation/samsung3.png) |
+
