@@ -169,7 +169,7 @@ Music Quiz Madness is an interactive general knowledge music quiz game. The aim 
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) Used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) Used for the site design as well as layout.
-- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) Used to enhance the responsive layout.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and [CSS Grid](https://www.w3schools.com/css/css_grid.asp) Used to enhance the responsive layout.
 - [JavaScript](https://www.javascript.com) Used for the interaction on the site.
 - [Git](https://git-scm.com) Used for version control. (git add, git commit, git push)
 - [GitHub](https://github.com) used for secure online code storage.
