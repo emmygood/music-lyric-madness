@@ -176,6 +176,7 @@ Music Quiz Madness is an interactive general knowledge music quiz game. The aim 
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Markdown Builder](https://traveltimn.github.io/markdown-builder/) by Tim Nelson used to help generate the Markdown files.
 - [Python Tutor](https://pythontutor.com/visualize.html#mode=edit) To visualise the execution of the javascript code.
+- [W3Schools](https://www.w3schools.com/colors/colors_converter.asp) Color converter for CSS across entire site.
 
 ---
 
@@ -256,13 +257,15 @@ however, it is important to be very specific about these sources to avoid plagia
 | [Pixabay](https://pixabay.com/) | entire site | free image download |
 | [Coolors](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) | entire site CSS | color palette generator |
 | [Font Awesome](https://fontawesome.com/kits/8c55020ac5/setup) | entire site | free icon library |
+| [Google Fonts](https://fonts.google.com/) | entire site | font across the site |
+| [Python Tutor](https://pythontutor.com/visualize.html#mode=edit) To visualise the execution of the javascript code.
 
 ### Media
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
 | [Pexels](https://www.pexels.com) | entire site | image | background image |
-| [Pixabay](https://pixabay.com) | gallery page | image | images on end html |
+| [Pixabay](https://pixabay.com) | gallery page | image | images on end html and javascript |
 | [Favicon](https://www.favicon.cc/) | html favicon | favicon on all pages |
 | [Open Trivia Database](https://opentdb.com/api_config.php) | javascript | generated random questions for javascript file |
 | [Font Awesome](https://fontawesome.com/kits/8c55020ac5/setup) | entire site | all icons across site |
