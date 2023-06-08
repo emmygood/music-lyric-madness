@@ -59,3 +59,17 @@ I tested the site on different devices to set the compatability. I tested it on 
 |                   | ![screenshot](documentation/validation/samsung2.png) |
 |                   | ![screenshot](documentation/validation/samsung3.png) |
 
+---
+
+## Lighthouse Audit
+
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. For mobile, the response times were a fair bit slower, so I made the image files smaller, from jpg to jpeg. I then tested it at again and got a much better score.
+
+| Page | Size | Screenshot | Notes |
+| --- | --- | --- | --- |
+| Home | Mobile | ![screenshot](documentation/validation/lighthousemob.png) | Slower response time due to large images |
+| Home | Desktop | ![screenshot](documentation/validation/lighthouse.png) | No warnings |
+| End | Mobile | ![screenshot](documentation/validation/lighthousemob2.png) | Some minor warnings |
+| End | Desktop | ![screenshot](documentation/validation/lighthouseend.png) | No major warnings |
+
+
