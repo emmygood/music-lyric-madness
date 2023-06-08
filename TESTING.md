@@ -51,7 +51,7 @@ I have used the Wave Web Accessibility Evaluation Tool to make sure the site is 
 
 I have tested the site on different browsers (Chrome, Firefox, Safari) as well as different screen sizes (laptop, tablet and smartphone) to test the responsivness. As well as this, I tested the site with development tools, whilst in the building stages, to ensure the responsivness of the site across different devices.
 
-I tested the site on different devices to set the compatability. I tested it on my smartphone (samsung, screenshots shown below) and was very pleased with how everything responded. As well as testing it on my laptop to see how it responded to a larger screen size.
+I tested the site on different devices to set the compatability. I tested it on my smartphone (samsung screenshots shown below) and was very pleased with how everything responded. As well as testing it on my laptop to see how it responded to a larger screen size.
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
@@ -63,7 +63,7 @@ I tested the site on different devices to set the compatability. I tested it on 
 
 ## Lighthouse Audit
 
-I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. For mobile, the response times were a fair bit slower, so I made the image files smaller, from jpg to jpeg. I then tested it at again and got a much better score.
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. For mobile, the response times were a fair bit slower, so I reduced the image sizes on [onvertio](https://convertio.co/), from jpg to jpeg. I then tested it again and got a much better score.
 
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
