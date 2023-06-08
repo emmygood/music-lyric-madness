@@ -75,9 +75,9 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
 | Home | Mobile | ![screenshot](documentation/validation/lighthousemob.png) | Slower response time due to large images |
-| Home | Desktop | ![screenshot](documentation/validation/lighthouse.png) | No warnings |
+| Home | Desktop | ![screenshot](documentation/validation/lthousedeskh.png) | No warnings |
 | End | Mobile | ![screenshot](documentation/validation/lighthousemob2.png) | Some minor warnings |
-| End | Desktop | ![screenshot](documentation/validation/lighthouseend.png) | No major warnings |
+| End | Desktop | ![screenshot](documentation/validation/lthousedesk.png) | No major warnings |
 
 ---
 
