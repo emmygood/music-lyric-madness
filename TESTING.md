@@ -114,33 +114,11 @@ Defensive programming was manually tested with the below user acceptance testing
 | Page | User Action | Expected Result | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
 | Home Page | | | | |
-| | Click on Logo | Redirection to Home page | Pass | |
-| | Click on Home link in navbar | Redirection to Home page | Pass | |
-| Gallery Page | | | | |
-| | Click on Gallery link in navbar | Redirection to Gallery page | Pass | |
-| | Load gallery images | All images load as expected | Pass | |
-| Contact Page | | | | |
-| | Click on Contact link in navbar | Redirection to Contact page | Pass | |
-| | Enter first/last name | Field will accept freeform text | Pass | |
-| | Enter valid email address | Field will only accept email address format | Pass | |
-| | Enter message in textarea | Field will accept freeform text | Pass | |
-| | Click the Submit button | Redirects user to form-dump | Pass | User must click 'Back' button to return |
-| Sign Up | | | | |
-| | Click on Sign Up button | Redirection to Sign Up page | Pass | |
-| | Enter valid email address | Field will only accept email address format | Pass | |
-| | Enter valid password (twice) | Field will only accept password format | Pass | |
-| | Click on Sign Up button | Asks user to confirm email page | Pass | Email sent to user |
-| | Confirm email | Redirects user to blank Sign In page | Pass | |
-| Log In | | | | |
-| | Click on the Login link | Redirection to Login page | Pass | |
-| | Enter valid email address | Field will only accept email address format | Pass | |
-| | Enter valid password | Field will only accept password format | Pass | |
-| | Click Login button | Redirects user to home page | Pass | |
-| Log Out | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
-| Profile | | | | |
-| | Click on Profile button | User will be redirected to the Profile page | Pass | |
-| | Click on the Edit button | User will be redirected to the edit profile page | Pass | |
-| | Click on the My Orders link | User will be redirected to the My Orders page | Pass | |
-| | Brute forcing the URL to get to another user's profile | User should be given an error | Pass | Redirects user back to own profile |
+| | Click on start | Begin the quiz at question one and refresh button appears | Pass | Takes you to the first question |
+| | Click social media links in footer | Link opens in new tab  | Pass | Once clicked you're directed to the linked page in a new tab |
+| Quiz Page | | | | |
+| | Click on an answer button correct | Button turns green, increment score by one  | Pass | If the answer user clicked on is correct it turns green, leaving all other buttons to turn red, incrementing score correct, Next button appears |
+| | Click on answer button incorrect | Button turns red, increment score by one | Pass | If the button clicked is incorrect the button turns red, the other three buttons turn either green or red, incrementing score incorrect, Next button appears |
+| | Click on Next button | Go to next question | Pass | When clicked the user is moved onto the next question, Next button is hidden |
+| | Click on last question | Redirection to end quiz page, image, message and final score | Pass | When finished the user is shown their final score along with one of three images and messages that represents this |
+| | Click on Play again | Takes you back to the home page | Pass | If the user wants to play again, they can press the play again button and return to the homepage, where the start button is |
