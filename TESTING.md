@@ -95,11 +95,11 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
      ![screenshot](documentation/validation/bug5.png)
 
-     To fix this, I checked the variable it was refering to, questionsShuffled. This needed to change to a let variable.
+     To fix this, I checked the variable it was refering to, questionsShuffled. This actually needed to change to a let variable in order for the function to work properly.
 
 - Js Failed to load resource
 
      ![screenshot](documentation/validation/bug2.png)
 
-     To fix this issue, I created a [favicon](https://www.favicon.cc/). This also helps to give the site better SEO.
+     To fix this issue, I created my own [favicon](https://www.favicon.cc/) that is inline with the theme of the game. This also helps to give the site better SEO.
 
