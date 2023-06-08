@@ -244,45 +244,29 @@ however, it is important to be very specific about these sources to avoid plagia
 | [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
 | [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
+| [W3Schools](https://www.w3schools.com/colors/colors_converter.asp) | entire site | color converter |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
 | [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
 | [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
-| [Favicon](https://www.favicon.cc/) | html favicon | tool for creating your own favicon |
-| [Convertio](https://convertio.co/) | entire site | reducing size of images |
+| [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified) | javascript | how to build a javascript quiz
+| [Favicon](https://www.favicon.cc/) | html favicon | tool for creating favicon |
+| [Convertio](https://convertio.co/) | entire site | tool for image compression |
 | [Open Trivia Database](https://opentdb.com/api_config.php) | javascript | generating random questions |
 | [Pixabay](https://pixabay.com/) | entire site | free image download |
+| [Coolors](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) | entire site CSS | color palette generator |
+| [Font Awesome](https://fontawesome.com/kits/8c55020ac5/setup) | entire site | free icon library |
 
 ### Media
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| [Pexels](https://www.pexels.com) | entire site | image | background image |
+| [Pixabay](https://pixabay.com) | gallery page | image | images on end html |
+| [Favicon](https://www.favicon.cc/) | html favicon | favicon on all pages |
+| [Open Trivia Database](https://opentdb.com/api_config.php) | javascript | generated random questions for javascript file |
+| [Font Awesome](https://fontawesome.com/kits/8c55020ac5/setup) | entire site | all icons across site |
+| [Google Fonts](https://fonts.google.com/) | entire site | font across the site |
 
 ### Acknowledgements
 
