@@ -268,6 +268,7 @@ You can fork this repository by using the following steps:
 | [Favicon](https://www.favicon.cc/) | html favicon | favicon | favicon on all pages |
 | [Open Trivia Database](https://opentdb.com/api_config.php) | javascript | javascript questions | generated random questions for javascript file |
 | [Font Awesome](https://fontawesome.com/kits/8c55020ac5/setup) | entire site | icons | all icons across site |
+| [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified) | javascript | how to build a javascript quiz
 | [Google Fonts](https://fonts.google.com/) | entire site | font | font across the site |
 
 ### Acknowledgements
