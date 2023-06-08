@@ -115,10 +115,10 @@ Defensive programming was manually tested with the below user acceptance testing
 | --- | --- | --- | --- | --- |
 | Home Page | | | | |
 | | Click on start | Begin the quiz at question one and refresh button appears | Pass | Takes you to the first question |
-| | Click social media links in footer | Link opens in new tab  | Pass | Once clicked you're directed to the linked page in a new tab |
+| | Click social media links in footer | Link opens in new tab  | Pass | Once clicked, you're directed to the linked page in a new tab |
 | Quiz Page | | | | |
-| | Click on an answer button correct | Button turns green, increment score by one  | Pass | If the answer user clicked on is correct it turns green, leaving all other buttons to turn red, incrementing score correct, Next button appears |
-| | Click on answer button incorrect | Button turns red, increment score by one | Pass | If the button clicked is incorrect the button turns red, the other three buttons turn either green or red, incrementing score incorrect, Next button appears |
-| | Click on Next button | Go to next question | Pass | When clicked the user is moved onto the next question, Next button is hidden |
-| | Click on last question | Redirection to end quiz page, image, message and final score | Pass | When finished the user is shown their final score along with one of three images and messages that represents this |
-| | Click on Play again | Takes you back to the home page | Pass | If the user wants to play again, they can press the play again button and return to the homepage, where the start button is |
+| | Click on an answer button correct | Button turns green, increment score by one  | Pass | If the answer the user clicked, is correct it turns green, leaving all other buttons to turn red. Incrementing score correct area. Next button appears |
+| | Click on answer button incorrect | Button turns red, increment score by one | Pass | If the button clicked is incorrect, the button turns red, the other three buttons turn either green or red. Incrementing score incorrect area. Next button appears |
+| | Click on Next button | Go to next question | Pass | When clicked the user is moved onto the next question. Next button is then hidden until an answer is chosen |
+| | Click on last question | Redirection to end quiz page. Image, message and final score | Pass | When question ten is complete, you're redirected to the end page where the user is shown their final score, along with one of three images and messages that represents this |
+| | Click on Play again | Takes you back to the home page | Pass | If the user wants to play again, they can press the play again button and return to the homepage, to where the start button is |
