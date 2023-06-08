@@ -55,7 +55,7 @@ I have used the Wave Web Accessibility Evaluation Tool to make sure the site is 
 
 I have tested the site on different browsers (Chrome, Firefox, Safari) as well as different screen sizes (laptop, tablet and smartphone) to test the responsivness. As well as this, I tested the site with development tools, whilst in the building stages, to ensure the responsivness of the site across different devices.
 
-I tested the site on different devices to test the compatability. I tested it on my smartphone (samsung screenshots shown below) and was very pleased with how everything responded. As well as testing it on my laptop to see how it responded to a larger screen size.
+I tested the site on different devices to test the compatability. I tested it on my smartphone (samsung screenshots shown below) and was very pleased with how everything responded. As well as testing it on my desktop to see how it responded to a larger screen size (also shown below).
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
