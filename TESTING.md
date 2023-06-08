@@ -51,7 +51,7 @@ I have used the Wave Web Accessibility Evaluation Tool to make sure the site is 
 
 I have tested the site on different browsers (Chrome, Firefox, Safari) as well as different screen sizes (laptop, tablet and smartphone) to test the responsivness. As well as this, I tested the site with development tools, whilst in the building stages, to ensure the responsivness of the site across different devices.
 
-I tested the site on different devices to set the compatability. I tested it on my smartphone (samsung) and was very pleased with how everything responded. As well as testing it on my laptop to see how it responded to a larger screen size.
+I tested the site on different devices to set the compatability. I tested it on my smartphone (samsung, screenshots shown below) and was very pleased with how everything responded. As well as testing it on my laptop to see how it responded to a larger screen size.
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
@@ -72,4 +72,34 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | End | Mobile | ![screenshot](documentation/validation/lighthousemob2.png) | Some minor warnings |
 | End | Desktop | ![screenshot](documentation/validation/lighthouseend.png) | No major warnings |
 
+---
+
+## Bugs
+
+
+- Js Uncaught Reference error: element is not defined
+ 
+     ![screenshot](documentation/validation/bug.png)
+
+     To fix this, I made sure that the element was defined in the clearQuizClass function as it's parameter, which was what was missing. This then meant that the setQuizClass function could work properly.
+
+
+- Js Uncaught Type error: cannot read properties of undefined
+    
+     ![screenshot](documentation/validation/bugfix.png)
+
+     To fix this, in order for the buttons to append into the correct place, I had to make sure the displayQuestion function was targetting the correct class from the html, which is buttons. This then appended the answer buttons into the button elements. As well as making the next button appear.
+
+
+- Js Uncaught Syntax error: missing initialiser in const declaration
+
+     ![screenshot](documentation/validation/bug5.png)
+
+     To fix this, I checked the variable it was refering to, questionsShuffled. This needed to change to a let variable.
+
+- Js Failed to load resource
+
+     ![screenshot](documentation/validation/bug2.png)
+
+     To fix this issue, I created a [favicon](https://www.favicon.cc/). This also helps to give the site better SEO.
 
