@@ -18,12 +18,12 @@ Music Quiz Madness is an interactive general knowledge music quiz game. The aim 
 - To juxtapose against the simple background colors, I went with paler versions; of blue and pink, so it was not too overpowering. Then I kept the text simple, being black, as this is easy to read against the blue and pink.
 - When the answer is chosen, I wanted the user to easily see which one is correct and which are incorrect. Therefore I chose a red and and a green, to change the font and border color. I used [coolors.co](https://coolors.co/ff8080-cc0000-66a3ff-004d00) to generate my color palette.
 
-  - #66a3ff used for the content box
-  - #ff8080 used for the buttons, and footer
-  - hsl(120, 100%, 15%) used for the button font and border, when answer is correct
-  - hsl(0, 100%, 40%) used for the button font and border, when answer is incorrect
-  - #000000 used for all font and icons
-  - #ffffff used for button:hover 
+  - `#66a3ff` used for the content box
+  - `#ff8080` used for the buttons, and footer
+  - `hsl(120, 100%, 15%)` used for the button font and border, when answer is correct
+  - `hsl(0, 100%, 40%)` used for the button font and border, when answer is incorrect
+  - `#000000` used for all font and icons
+  - `#ffffff` used for button:hover 
 
 
 ![screenshot](documentation/colors.png)
