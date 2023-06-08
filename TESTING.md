@@ -24,3 +24,15 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femmygood.github.io%2Fmusic-quiz-madness) | ![screenshot](documentation/cssval.png) | Pass: No Errors |
 
 ---
+
+### JavaScript
+
+I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
+
+| File | Screenshot | Notes |
+| --- | --- | --- |
+| script.js | ![screenshot](documentation/jshint1.png) | Unused variables from external files |
+| questions.js | ![screenshot](documentation/questhint.png) | Unused variables from external files |
+| end.js | ![screenshot](documentation/endhint.png) | Pass: No Errors |
+
+---
