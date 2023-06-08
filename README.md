@@ -228,13 +228,13 @@ You can fork this repository by using the following steps:
 
 ## Credits
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- All text was created by myself apart from the questions and answers [Open Trivia Database](https://opentdb.com/api_config.php)
+- [Markdown Builder](https://traveltimn.github.io/markdown-builder/) by Tim Nelson README and TESTING tool to help generate the Markdown file.
+- Reference from [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified) in how to build a basic javascript quiz.
+- [W3Schools](https://www.w3schools.com/) entire site, responsive HTML/CSS/JS navbar.
+- Reference material was used from W3Schools for flexbox, [color converting](https://www.w3schools.com/colors/colors_converter.asp), and general reference aid.
+- [Flexbox Froggy](https://flexboxfroggy.com/) entire site, modern responsive layouts.
+- [YouTube](https://www.youtube.com/) entire site, flexbox tutorial.
 
 ### Content
 
@@ -258,7 +258,7 @@ however, it is important to be very specific about these sources to avoid plagia
 | [Coolors](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) | entire site CSS | color palette generator |
 | [Font Awesome](https://fontawesome.com/kits/8c55020ac5/setup) | entire site | free icon library |
 | [Google Fonts](https://fonts.google.com/) | entire site | font across the site |
-| [Python Tutor](https://pythontutor.com/visualize.html#mode=edit) To visualise the execution of the javascript code.
+| [Python Tutor](https://pythontutor.com/visualize.html#mode=edit) | javascript | to visualise the execution of the javascript code.
 
 ### Media
 
@@ -266,10 +266,10 @@ however, it is important to be very specific about these sources to avoid plagia
 | --- | --- | --- | --- |
 | [Pexels](https://www.pexels.com) | entire site | image | background image |
 | [Pixabay](https://pixabay.com) | gallery page | image | images on end html and javascript |
-| [Favicon](https://www.favicon.cc/) | html favicon | favicon on all pages |
-| [Open Trivia Database](https://opentdb.com/api_config.php) | javascript | generated random questions for javascript file |
-| [Font Awesome](https://fontawesome.com/kits/8c55020ac5/setup) | entire site | all icons across site |
-| [Google Fonts](https://fonts.google.com/) | entire site | font across the site |
+| [Favicon](https://www.favicon.cc/) | html favicon | favicon | favicon on all pages |
+| [Open Trivia Database](https://opentdb.com/api_config.php) | javascript | javascript questions | generated random questions for javascript file |
+| [Font Awesome](https://fontawesome.com/kits/8c55020ac5/setup) | entire site | icons | all icons across site |
+| [Google Fonts](https://fonts.google.com/) | entire site | font | font across the site |
 
 ### Acknowledgements
 
