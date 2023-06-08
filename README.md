@@ -116,7 +116,7 @@ Music Quiz Madness is an interactive general knowledge music quiz game. The aim 
 - When the game has started this button is hidden.
 
 ![screenshot](documentation/start.png)
-![screenshot](documentation/start2.png)
+![screenshot](documentation/start4.png)
 
 #### Question and Answers
 
