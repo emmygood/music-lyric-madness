@@ -77,7 +77,8 @@ function resetQuiz() {
 // function to check what answer has been selected and looping through them to check if it is correct or not
 function selectAnswer(i) {
     const chosenButton = i.target;
-    Array.from(answerBtns.children).forEach(button => {
+    let answerButtons = document.querySelectorAll('#answer-btns .button');
+    answerButtons.forEach(button => {
         button.classList.add('disable');
         setQuizClass(button, button.dataset.correct, chosenButton);
     });
