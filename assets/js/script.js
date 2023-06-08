@@ -88,7 +88,6 @@ function selectAnswer(i) {
     } else {
         questionArea.classList.add('hide');
         endGame();
-        // restartButton.classList.remove('hide');
     }
 }
 
