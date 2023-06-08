@@ -2,6 +2,8 @@
 
 Return back to the [README.md](README.md) file.
 
+---
+
 ## Code Validation
 
 ### HTML Validaton
@@ -47,11 +49,13 @@ I have used the Wave Web Accessibility Evaluation Tool to make sure the site is 
 
 ![screenshot](documentation/wave1.png)
 
+---
+
 ## Compatability 
 
 I have tested the site on different browsers (Chrome, Firefox, Safari) as well as different screen sizes (laptop, tablet and smartphone) to test the responsivness. As well as this, I tested the site with development tools, whilst in the building stages, to ensure the responsivness of the site across different devices.
 
-I tested the site on different devices to set the compatability. I tested it on my smartphone (samsung screenshots shown below) and was very pleased with how everything responded. As well as testing it on my laptop to see how it responded to a larger screen size.
+I tested the site on different devices to test the compatability. I tested it on my smartphone (samsung screenshots shown below) and was very pleased with how everything responded. As well as testing it on my laptop to see how it responded to a larger screen size.
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
@@ -63,7 +67,7 @@ I tested the site on different devices to set the compatability. I tested it on 
 
 ## Lighthouse Audit
 
-I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. For mobile, the response times were a fair bit slower, so I reduced the image sizes on [onvertio](https://convertio.co/), from jpg to jpeg. I then tested it again and got a much better score.
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. For mobile, the response times were a fair bit slower, so I reduced the image sizes on [Convertio](https://convertio.co/), from jpg to jpeg. I then tested it again and got a much better score.
 
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
@@ -103,3 +107,40 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
      To fix this issue, I created my own [favicon](https://www.favicon.cc/) that is inline with the theme of the game. This also helps to give the site better SEO.
 
+## Defensive Programming
+
+Defensive programming was manually tested with the below user acceptance testing:
+
+| Page | User Action | Expected Result | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| Home Page | | | | |
+| | Click on Logo | Redirection to Home page | Pass | |
+| | Click on Home link in navbar | Redirection to Home page | Pass | |
+| Gallery Page | | | | |
+| | Click on Gallery link in navbar | Redirection to Gallery page | Pass | |
+| | Load gallery images | All images load as expected | Pass | |
+| Contact Page | | | | |
+| | Click on Contact link in navbar | Redirection to Contact page | Pass | |
+| | Enter first/last name | Field will accept freeform text | Pass | |
+| | Enter valid email address | Field will only accept email address format | Pass | |
+| | Enter message in textarea | Field will accept freeform text | Pass | |
+| | Click the Submit button | Redirects user to form-dump | Pass | User must click 'Back' button to return |
+| Sign Up | | | | |
+| | Click on Sign Up button | Redirection to Sign Up page | Pass | |
+| | Enter valid email address | Field will only accept email address format | Pass | |
+| | Enter valid password (twice) | Field will only accept password format | Pass | |
+| | Click on Sign Up button | Asks user to confirm email page | Pass | Email sent to user |
+| | Confirm email | Redirects user to blank Sign In page | Pass | |
+| Log In | | | | |
+| | Click on the Login link | Redirection to Login page | Pass | |
+| | Enter valid email address | Field will only accept email address format | Pass | |
+| | Enter valid password | Field will only accept password format | Pass | |
+| | Click Login button | Redirects user to home page | Pass | |
+| Log Out | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| Profile | | | | |
+| | Click on Profile button | User will be redirected to the Profile page | Pass | |
+| | Click on the Edit button | User will be redirected to the edit profile page | Pass | |
+| | Click on the My Orders link | User will be redirected to the My Orders page | Pass | |
+| | Brute forcing the URL to get to another user's profile | User should be given an error | Pass | Redirects user back to own profile |
