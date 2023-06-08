@@ -122,7 +122,7 @@ Music Quiz Madness is an interactive general knowledge music quiz game. The aim 
 
 - When the user clicks the start button the first question appears in place of the instructions.
 - The questions are numbered to give the user insight into what number they are on.
-- The questions will never appear in the same order, they are shuffled every game.
+- The questions will never appear in the same order, they are shuffled every game. I used [Open Trivia Database](https://opentdb.com/api_config.php) to generate a list of random questions.
 - There are four multiple choice answers, for the user to choose from.
 - When hovered over, each button outline will turn white #ffffff to indicate it is clickable.
 - Once the answer is chosen, the correct answer will turn green hsl(120, 100%, 15%), leaving the incorrect answers to tun red hsl(0, 100%, 40%). This is giving immediate feedback to the user which should make them continue to play because it means they do not have to wait until the end to recieve the correct answer.
@@ -237,15 +237,6 @@ however, it is important to be very specific about these sources to avoid plagia
 
 ### Content
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
@@ -260,6 +251,10 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
 | [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
 | [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
+| [Favicon](https://www.favicon.cc/) | html favicon | tool for creating your own favicon |
+| [Convertio](https://convertio.co/) | entire site | reducing size of images |
+| [Open Trivia Database](https://opentdb.com/api_config.php) | javascript | generating random questions |
+| [Pixabay](https://pixabay.com/) | entire site | free image download |
 
 ### Media
 
