@@ -62,6 +62,9 @@ I tested the site on different devices to test the compatability. I tested it on
 | Mobile (DevTools) | ![screenshot](documentation/validation/samsung1.png) | Works as expected |
 |                   | ![screenshot](documentation/validation/samsung2.png) |
 |                   | ![screenshot](documentation/validation/samsung3.png) |
+| Desktop           | ![screenshot](documentation/validation/laptop3.png)  | Works as expected |
+|                   | ![screenshot](documentation/validation/laptop2.png)  |                   |
+|                   | ![screenshot](documentation/validation/laptop.png)   |                   |
 
 ---
 
