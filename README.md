@@ -178,66 +178,10 @@ Music Quiz Madness is an interactive general knowledge music quiz game. The aim 
 - [Python Tutor](https://pythontutor.com/visualize.html#mode=edit) To visualise the execution of the javascript code.
 
 ---
+
 ## Testing
 
-I have tested the site on different browsers (Chrome, Firefox, Safari) as well as different screen sizes (laptop, tablet and smartphone) to test the responsivness. As well as this, I tested the site with development tools, whilst in the building stages, to ensure the responsivness of the site across different devices.
-
-### HTML Validaton
-
-I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
-
-- Home - [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fmusic-quiz-madness%2F) Lack of headings h2-h6. I am aware of this warning, however this section is for the control buttons, therefore they do not need to be headings. This does not effect the final look of the site in the browsers.
-
-![screenshot](documentation/homeval.png)
-
-
-- Game - [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fmusic-quiz-madness%2Findex.html)
-Lack of headings h2-h6. Same warning again for the same buttons, but I am leaving them as they are because they are not headings.
-
-![screenshot](documentation/quizval2.png) 
-
-
-- End Game - [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fmusic-quiz-madness%2Fend.html)
-Lack of headings h2-h6. And again for the same buttons, but I am leaving them as they are because they are not headings.
-
-![screenshot](documentation/endval.png)
-
-### CSS 
-
-I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
-
-- Pass: No Errors [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femmygood.github.io%2Fmusic-quiz-madness%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
-![screenshot](documentation/cssval.png)
-
-### Javascript
-
-I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
-
-- Script js file - Unused variables from external files, coming from the questions.js file
-
-![screenshot](documentation/jshint1.png)
-
-- Questions js file - Unused variables from external files
-
-![screenshot](documentation/questhint.png)
-
-- End js file - Pass: No Errors
-
-![screenshot](documentation/endhint.png)
-
-## Responsivness 
-
-I have used the Wave Web Accessibility Evaluation Tool to make sure the site is accessible for all. All pages passed with no errors. Here are the results below.
-
-- [Wave Link Home](https://wave.webaim.org/report#/https://emmygood.github.io/music-quiz-madness/index.html)
-
-- [Wave Link End](https://wave.webaim.org/report#/https://emmygood.github.io/music-quiz-madness/end.html)
-
-![screenshot](documentation/wave1.png)
-
-## Compatability 
-
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 ## Deployment
 
