@@ -53,7 +53,7 @@ I have used the Wave Web Accessibility Evaluation Tool to make sure the site is 
 
 ## Compatability 
 
-I have tested the site on different browsers (Chrome, Firefox, Safari) as well as different screen sizes (laptop, tablet and smartphone) to test the responsivness. As well as this, I tested the site with development tools, whilst in the building stages, to ensure the responsivness of the site across different devices.
+I have tested the site on different browsers [Chrome](https://www.google.com/chrome), [Microsoft Edge](https://www.microsoft.com/edge), and [Safari](https://support.apple.com/downloads/safari), as well as different screen sizes (laptop, tablet and smartphone) to test the responsivness. As well as this, I tested the site with development tools, whilst in the building stages, to ensure the responsivness of the site across different devices.
 
 
 | Browser | Screenshot | Notes |
