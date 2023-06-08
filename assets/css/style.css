@@ -101,12 +101,13 @@ p {
 
 .button {
     background-color: #ff8080;
-    border: 3px solid;
+    border: 3px solid #000000;
     height: 58px;
     border-radius: 5px;
     padding: 3px 2px;
     font-weight: bold;
-    text-decoration: none;  
+    text-decoration: none;
+    color: #000000;
 }
 
 .button:hover {
