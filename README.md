@@ -228,7 +228,7 @@ You can fork this repository by using the following steps:
 
 ## Credits
 
-- All text was created by myself apart from the questions and answers [Open Trivia Database](https://opentdb.com/api_config.php)
+- All text was created by myself apart from the questions and answers which were geerated in [Open Trivia Database](https://opentdb.com/api_config.php)
 - [Markdown Builder](https://traveltimn.github.io/markdown-builder/) by Tim Nelson README and TESTING tool to help generate the Markdown file.
 - Reference from [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified) in how to build a basic javascript quiz.
 - [W3Schools](https://www.w3schools.com/) entire site, responsive HTML/CSS/JS navbar.
